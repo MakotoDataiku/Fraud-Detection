@@ -58,11 +58,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1595407170640
+    "lastModifiedOn": 1598443794205
   },
   "creationTag": {
     "versionNumber": 0,
@@ -94,7 +94,7 @@
       },
       {
         "name": "type",
-        "type": "string"
+        "type": "int"
       },
       {
         "name": "amount",
@@ -102,7 +102,7 @@
       },
       {
         "name": "id_company",
-        "type": "string"
+        "type": "int"
       },
       {
         "name": "remote_ip",
