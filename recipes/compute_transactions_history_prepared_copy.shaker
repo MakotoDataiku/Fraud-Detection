@@ -26,7 +26,10 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
   "steps": [],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
@@ -35,7 +38,19 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "date": 148,
+    "amount": 100,
+    "remote_ip": 113,
+    "remote_ip_country": 143,
+    "card_country": 105,
+    "id_company": 100,
+    "index": 100,
+    "card_mask": 141,
+    "type": 100,
+    "remote_ip_tor": 113,
+    "email": 300
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
