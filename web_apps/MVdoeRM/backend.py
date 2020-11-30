@@ -6,6 +6,8 @@ from bokeh.models import ColumnDataSource
 from bokeh.models.widgets import Slider, TextInput
 from bokeh.plotting import figure
 
+print(bokeh.__version__)
+
 # Set up data
 N = 200
 x = np.linspace(0, 4*np.pi, N)

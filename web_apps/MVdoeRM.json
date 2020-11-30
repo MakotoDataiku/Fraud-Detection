@@ -33,11 +33,11 @@
   "config": {},
   "name": "test",
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1606737500181
+    "lastModifiedOn": 1606737547060
   },
   "creationTag": {
     "versionNumber": 0,
