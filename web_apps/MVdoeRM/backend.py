@@ -30,6 +30,6 @@ plot = figure(plot_height=400, plot_width=400, title="my sine wave",
 
 
 # Set up layouts and add to document
-curdoc().add_root(row(fig, width=800))
+curdoc().add_root(row(ax, width=800))
 
 
