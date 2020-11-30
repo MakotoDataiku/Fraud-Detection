@@ -35,6 +35,6 @@ plot.line('x', 'y', source=source, line_width=3, line_alpha=0.6)
 
 
 # Set up layouts and add to document
-curdoc().add_root(row(fig, width=800))
+curdoc().add_root(row(plt, width=800))
 
 
