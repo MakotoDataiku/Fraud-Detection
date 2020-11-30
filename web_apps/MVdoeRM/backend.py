@@ -6,7 +6,17 @@ from bokeh.models import ColumnDataSource
 from bokeh.models.widgets import Slider, TextInput
 from bokeh.plotting import figure
 import bokeh
+import seaborn as sns; sns.set_theme()
+import matplotlib.pyplot as plt
+
 print(bokeh.__version__)
+
+uniform_data = np.random.rand(10, 12)
+ax = sns.heatmap(uniform_data)
+
+fig, ax = plt.subplots(figsize=(11, 9))
+sns.heatmap(uniform_data)
+
 
 # Set up data
 N = 200
@@ -23,40 +33,7 @@ plot = figure(plot_height=400, plot_width=400, title="my sine wave",
 plot.line('x', 'y', source=source, line_width=3, line_alpha=0.6)
 
 
-# Set up widgets
-text = TextInput(title="title", value='sine wave')
-offset = Slider(title="offset", value=0.0, start=-5.0, end=5.0, step=0.1)
-amplitude = Slider(title="amplitude", value=1.0, start=-5.0, end=5.0)
-phase = Slider(title="phase", value=0.0, start=0.0, end=2*np.pi)
-freq = Slider(title="frequency", value=1.0, start=0.1, end=5.1)
-
-
-# Set up callbacks
-def update_title(attrname, old, new):
-    plot.title.text = text.value
-
-text.on_change('value', update_title)
-
-def update_data(attrname, old, new):
-
-    # Get the current slider values
-    a = amplitude.value
-    b = offset.value
-    w = phase.value
-    k = freq.value
-
-    # Generate the new curve
-    x = np.linspace(0, 4*np.pi, N)
-    y = a*np.sin(k*x + w) + b
-
-    source.data = dict(x=x, y=y)
-
-for w in [offset, amplitude, phase, freq]:
-    w.on_change('value', update_data)
-
 
 # Set up layouts and add to document
-inputs = widgetbox(text, offset, amplitude, phase, freq)
-
-curdoc().add_root(row(inputs, plot, width=800))
+curdoc().add_root(row(inputs, fig, width=800))
 curdoc().title = "Sliders"
