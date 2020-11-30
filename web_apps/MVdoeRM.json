@@ -4,7 +4,8 @@
   "params": {
     "autoStartBackend": false,
     "envSelection": {
-      "envMode": "INHERIT"
+      "envMode": "EXPLICIT_ENV",
+      "envName": "bokeh-webapp"
     },
     "nbProcesses": 1,
     "infra": {
@@ -32,11 +33,11 @@
   "config": {},
   "name": "test",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1606737481700
+    "lastModifiedOn": 1606737500181
   },
   "creationTag": {
     "versionNumber": 0,
