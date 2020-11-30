@@ -5,7 +5,7 @@ from bokeh.layouts import row, widgetbox
 from bokeh.models import ColumnDataSource
 from bokeh.models.widgets import Slider, TextInput
 from bokeh.plotting import figure
-
+import bokeh
 print(bokeh.__version__)
 
 # Set up data
