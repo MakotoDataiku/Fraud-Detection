@@ -4,9 +4,21 @@
     "authorizations": []
   },
   "exposedObjects": {
-    "objects": []
+    "objects": [
+      {
+        "type": "DATASET",
+        "localName": "transactions_history",
+        "rules": [
+          {
+            "targetProject": "AMAG_SERENIUM",
+            "appearOnFlow": true
+          }
+        ]
+      }
+    ]
   },
   "projectType": "REGULAR",
+  "projectAppType": "REGULAR",
   "owner": "admin",
   "permissions": [],
   "additionalDashboardUsers": {
@@ -51,11 +63,15 @@
     },
     "codeEnvs": {
       "python": {
-        "useBuiltinEnv": true,
+        "mode": "INHERIT",
         "preventOverride": false
       },
       "r": {
-        "useBuiltinEnv": true,
+        "mode": "INHERIT",
+        "preventOverride": false
+      },
+      "julia": {
+        "mode": "INHERIT",
         "preventOverride": false
       }
     },
@@ -106,9 +122,12 @@
           "initialReplicas": 1,
           "hpa": false,
           "hpaTargetCPUPercent": 0,
+          "hpaMetrics": [],
           "hpaMinPods": 0,
-          "hpaMaxPods": 0
-        }
+          "hpaMaxPods": 0,
+          "hpaAnnotations": []
+        },
+        "deploymentModifier": {}
       }
     }
   },
@@ -167,6 +186,13 @@
     "displayedState": {
       "checks": []
     }
+  },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1607592739006
   },
   "creationTag": {
     "versionNumber": 0,
