@@ -4,18 +4,7 @@
     "authorizations": []
   },
   "exposedObjects": {
-    "objects": [
-      {
-        "type": "DATASET",
-        "localName": "transactions_history",
-        "rules": [
-          {
-            "targetProject": "AMAG_SERENIUM",
-            "appearOnFlow": true
-          }
-        ]
-      }
-    ]
+    "objects": []
   },
   "projectType": "REGULAR",
   "projectAppType": "REGULAR",
@@ -188,11 +177,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1607592739006
+    "lastModifiedOn": 1607592762560
   },
   "creationTag": {
     "versionNumber": 0,
