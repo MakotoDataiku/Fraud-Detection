@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1607684772082
+    "lastModifiedOn": 1607684784973
   },
   "creationTag": {
     "versionNumber": 0,
@@ -85,8 +85,69 @@
     }
   },
   "schema": {
-    "columns": [],
-    "userModified": false
+    "columns": [
+      {
+        "name": "date",
+        "type": "string"
+      },
+      {
+        "name": "0_count",
+        "type": "bigint"
+      },
+      {
+        "name": "1_count",
+        "type": "bigint"
+      },
+      {
+        "name": "2_count",
+        "type": "bigint"
+      }
+    ],
+    "userModified": false,
+    "metadata": {
+      "engineType": "DSS",
+      "pivotElementsModalities": [
+        {
+          "pivotElement": {
+            "keyColumns": [
+              "type"
+            ],
+            "valueLimit": "TOP_N",
+            "topnLimit": 20,
+            "minOccLimit": 0,
+            "explicitValues": [],
+            "globalCount": true,
+            "valueColumns": []
+          },
+          "pivotedModalities": [
+            {
+              "keyValues": [
+                "0"
+              ],
+              "name": "0",
+              "valueColumns": [],
+              "globalCountColumn": "0_count"
+            },
+            {
+              "keyValues": [
+                "1"
+              ],
+              "name": "1",
+              "valueColumns": [],
+              "globalCountColumn": "1_count"
+            },
+            {
+              "keyValues": [
+                "2"
+              ],
+              "name": "2",
+              "valueColumns": [],
+              "globalCountColumn": "2_count"
+            }
+          ]
+        }
+      ]
+    }
   },
   "metrics": {
     "probes": [
