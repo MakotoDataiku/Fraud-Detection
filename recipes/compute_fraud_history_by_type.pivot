@@ -53,24 +53,23 @@
       "globalCount": false,
       "explicitValues": [],
       "keyColumns": [
-        "type"
+        "id_company"
       ],
       "valueColumns": [
         {
           "last": false,
-          "max": false,
-          "column": "id_company",
+          "max": true,
+          "column": "amount",
           "count": false,
           "sum": false,
           "concat": false,
           "type": "string",
-          "$agg": "first",
+          "$agg": "max",
           "countDistinct": false,
           "min": false,
           "avg": false,
           "stddev": false,
-          "first": true,
-          "orderColumn": "date"
+          "first": false
         }
       ]
     }
