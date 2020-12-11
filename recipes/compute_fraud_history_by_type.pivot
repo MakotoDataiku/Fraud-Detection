@@ -50,12 +50,29 @@
       "valueLimit": "TOP_N",
       "minOccLimit": 0,
       "topnLimit": 20,
-      "globalCount": true,
+      "globalCount": false,
       "explicitValues": [],
       "keyColumns": [
         "type"
       ],
-      "valueColumns": []
+      "valueColumns": [
+        {
+          "last": false,
+          "max": false,
+          "column": "id_company",
+          "count": false,
+          "sum": false,
+          "concat": false,
+          "type": "string",
+          "$agg": "first",
+          "countDistinct": false,
+          "min": false,
+          "avg": false,
+          "stddev": false,
+          "first": true,
+          "orderColumn": "date"
+        }
+      ]
     }
   ],
   "computedColumns": [],
