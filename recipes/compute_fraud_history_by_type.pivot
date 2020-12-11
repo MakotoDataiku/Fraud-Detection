@@ -42,7 +42,7 @@
     }
   },
   "explicitIdentifiers": [
-    "date"
+    "id_company"
   ],
   "otherColumns": [],
   "pivots": [
@@ -53,18 +53,18 @@
       "globalCount": false,
       "explicitValues": [],
       "keyColumns": [
-        "id_company"
+        "email"
       ],
       "valueColumns": [
         {
           "last": false,
-          "max": true,
+          "max": false,
           "column": "amount",
-          "count": false,
+          "count": true,
           "sum": false,
           "concat": false,
           "type": "string",
-          "$agg": "max",
+          "$agg": "count",
           "countDistinct": false,
           "min": false,
           "avg": false,
