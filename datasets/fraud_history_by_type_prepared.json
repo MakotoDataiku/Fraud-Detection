@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1607685133390
+    "lastModifiedOn": 1607685333323
   },
   "creationTag": {
     "versionNumber": 0,
@@ -91,84 +91,408 @@
         "type": "string"
       },
       {
-        "name": "1022_amount_max",
+        "name": "2014-06-02 09:28:07",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-02 12:54:50",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-02 14:44:46",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-03 00:07:25",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-03 09:42:08",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-03 09:42:58",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-03 15:29:26",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-03 15:32:05",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-03 18:21:55",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-03 18:24:25",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-03 21:08:59",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-04 08:48:48",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-04 13:20:38",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-04 13:23:18",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-04 20:30:30",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-05 11:01:34",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-05 17:56:41",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-05 20:01:42",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-06 10:14:19",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-06 10:15:40",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-06 22:59:45",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-06 23:07:57",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-06 23:14:43",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-06 23:22:20",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-09 01:03:24",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-09 01:06:21",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-09 15:58:54",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-10 01:18:37",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-10 01:25:49",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-10 04:33:28",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-10 09:58:25",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-10 16:50:41",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-10 16:52:15",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-11 13:40:49",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-11 13:41:55",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-11 13:42:46",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-11 13:43:47",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-11 13:53:59",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-11 15:14:13",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-11 17:13:58",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-11 18:16:29",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-12 02:14:29",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-12 11:39:50",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-12 12:49:05",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-12 12:54:12",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-12 13:01:52",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-12 13:02:44",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-12 13:39:27",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-13 07:29:46",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-13 13:41:20",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-13 13:47:08",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-13 13:48:30",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-13 13:50:09",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-13 13:51:41",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-13 13:52:40",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-13 14:08:45",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-13 14:09:30",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-13 14:10:17",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-13 15:40:19",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-13 17:55:11",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-13 18:21:57",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-13 18:44:51",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-13 22:20:03",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-13 22:36:03",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-13 22:42:04",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-13 22:48:04",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-14 10:47:45",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-14 10:52:48",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-14 14:47:32",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-14 14:49:40",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-15 18:21:26",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-15 18:21:52",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-15 18:22:24",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-15 18:28:56",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-15 18:36:40",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-15 18:40:10",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-16 09:08:08",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-16 18:01:12",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-16 19:26:44",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-16 19:28:07",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-16 19:29:35",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-16 20:42:24",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-16 21:00:22",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-16 22:01:55",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-16 23:24:40",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-17 06:52:30",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-17 07:01:18",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-17 07:11:34",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-17 07:19:56",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-17 15:28:19",
+        "type": "bigint"
+      },
+      {
+        "name": "2014-06-17 15:35:11",
         "type": "double"
       },
       {
-        "name": "1645_amount_max",
-        "type": "bigint"
-      },
-      {
-        "name": "3062_amount_max",
-        "type": "bigint"
-      },
-      {
-        "name": "4150_amount_max",
+        "name": "2014-06-17 15:55:24",
         "type": "double"
       },
       {
-        "name": "4348_amount_max",
+        "name": "2014-06-17 16:01:39",
         "type": "bigint"
       },
       {
-        "name": "4515_amount_max",
+        "name": "2014-06-17 16:36:23",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-17 16:52:17",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-17 19:43:00",
+        "type": "string"
+      },
+      {
+        "name": "2014-06-17 22:41:10",
         "type": "bigint"
       },
       {
-        "name": "5043_amount_max",
-        "type": "bigint"
-      },
-      {
-        "name": "5069_amount_max",
-        "type": "bigint"
-      },
-      {
-        "name": "5106_amount_max",
-        "type": "bigint"
-      },
-      {
-        "name": "5201_amount_max",
+        "name": "2014-06-18 01:03:51",
         "type": "double"
       },
       {
-        "name": "5203_amount_max",
-        "type": "bigint"
-      },
-      {
-        "name": "5338_amount_max",
-        "type": "bigint"
-      },
-      {
-        "name": "5513_amount_max",
-        "type": "bigint"
-      },
-      {
-        "name": "5515_amount_max",
-        "type": "bigint"
-      },
-      {
-        "name": "5537_amount_max",
-        "type": "bigint"
-      },
-      {
-        "name": "5886_amount_max",
+        "name": "2014-06-18 01:06:13",
         "type": "double"
       },
       {
-        "name": "5889_amount_max",
-        "type": "double"
+        "name": "2014-06-18 12:52:32",
+        "type": "string"
       },
       {
-        "name": "5934_amount_max",
-        "type": "bigint"
-      },
-      {
-        "name": "6180_amount_max",
-        "type": "double"
-      },
-      {
-        "name": "704_amount_max",
-        "type": "bigint"
+        "name": "2014-06-18 13:43:16",
+        "type": "string"
       }
     ],
     "userModified": true
