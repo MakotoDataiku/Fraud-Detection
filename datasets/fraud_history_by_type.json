@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1607685029220
+    "lastModifiedOn": 1607685416969
   },
   "creationTag": {
     "versionNumber": 0,
@@ -87,88 +87,88 @@
   "schema": {
     "columns": [
       {
-        "name": "date",
+        "name": "id_company",
         "type": "string"
       },
       {
-        "name": "1022_amount_max",
-        "type": "string"
+        "name": "null_email_amount_count",
+        "type": "bigint"
       },
       {
-        "name": "1645_amount_max",
-        "type": "string"
+        "name": "aleen_minor_323@live.fr_amount_count",
+        "type": "bigint"
       },
       {
-        "name": "3062_amount_max",
-        "type": "string"
+        "name": "dagobah_311.tatooine_133@orange.fr_amount_count",
+        "type": "bigint"
       },
       {
-        "name": "4150_amount_max",
-        "type": "string"
+        "name": "dagobah_84@others.com_amount_count",
+        "type": "bigint"
       },
       {
-        "name": "4348_amount_max",
-        "type": "string"
+        "name": "dathomir_132.concord_dawn_69@outlook.fr_amount_count",
+        "type": "bigint"
       },
       {
-        "name": "4515_amount_max",
-        "type": "string"
+        "name": "geonosis_77@outlook.fr_amount_count",
+        "type": "bigint"
       },
       {
-        "name": "5043_amount_max",
-        "type": "string"
+        "name": "haruun_kal_249@gmail.com_amount_count",
+        "type": "bigint"
       },
       {
-        "name": "5069_amount_max",
-        "type": "string"
+        "name": "haruun_kal_329@gmail.com_amount_count",
+        "type": "bigint"
       },
       {
-        "name": "5106_amount_max",
-        "type": "string"
+        "name": "haruun_kal_93@yahoo.fr_amount_count",
+        "type": "bigint"
       },
       {
-        "name": "5201_amount_max",
-        "type": "string"
+        "name": "hoth_172@gmail.com_amount_count",
+        "type": "bigint"
       },
       {
-        "name": "5203_amount_max",
-        "type": "string"
+        "name": "hoth_87@yahoo.fr_amount_count",
+        "type": "bigint"
       },
       {
-        "name": "5338_amount_max",
-        "type": "string"
+        "name": "kamino_285@others.com_amount_count",
+        "type": "bigint"
       },
       {
-        "name": "5513_amount_max",
-        "type": "string"
+        "name": "polis_massa_53@others.com_amount_count",
+        "type": "bigint"
       },
       {
-        "name": "5515_amount_max",
-        "type": "string"
+        "name": "skako_115@yahoo.fr_amount_count",
+        "type": "bigint"
       },
       {
-        "name": "5537_amount_max",
-        "type": "string"
+        "name": "socorro_268@others.com_amount_count",
+        "type": "bigint"
       },
       {
-        "name": "5886_amount_max",
-        "type": "string"
+        "name": "stewjon_184.ryloth_80@gmail.com_amount_count",
+        "type": "bigint"
       },
       {
-        "name": "5889_amount_max",
-        "type": "string"
+        "name": "tatooine_364@others.com_amount_count",
+        "type": "bigint"
       },
       {
-        "name": "5934_amount_max",
-        "type": "string"
+        "name": "tatooine_373@others.com_amount_count",
+        "type": "bigint"
       },
       {
-        "name": "6180_amount_max",
-        "type": "string"
+        "name": "tatooine_388@others.com_amount_count",
+        "type": "bigint"
       },
       {
-        "name": "704_amount_max",
-        "type": "string"
+        "name": "zolan_157@others.com_amount_count",
+        "type": "bigint"
       }
     ],
     "userModified": false,
@@ -178,7 +178,7 @@
         {
           "pivotElement": {
             "keyColumns": [
-              "id_company"
+              "email"
             ],
             "valueLimit": "TOP_N",
             "topnLimit": 20,
@@ -190,8 +190,8 @@
                 "column": "amount",
                 "type": "string",
                 "min": false,
-                "max": true,
-                "count": false,
+                "max": false,
+                "count": true,
                 "countDistinct": false,
                 "sum": false,
                 "concat": false,
@@ -208,241 +208,241 @@
           "pivotedModalities": [
             {
               "keyValues": [
-                "1022"
+                null
               ],
-              "name": "1022",
+              "name": "null_email",
               "valueColumns": [
                 {
                   "source": "amount",
-                  "pivoted": "1022_amount"
+                  "pivoted": "null_email_amount"
                 }
               ]
             },
             {
               "keyValues": [
-                "1645"
+                "aleen_minor_323@live.fr"
               ],
-              "name": "1645",
+              "name": "aleen_minor_323@live.fr",
               "valueColumns": [
                 {
                   "source": "amount",
-                  "pivoted": "1645_amount"
+                  "pivoted": "aleen_minor_323@live.fr_amount"
                 }
               ]
             },
             {
               "keyValues": [
-                "3062"
+                "dagobah_311.tatooine_133@orange.fr"
               ],
-              "name": "3062",
+              "name": "dagobah_311.tatooine_133@orange.fr",
               "valueColumns": [
                 {
                   "source": "amount",
-                  "pivoted": "3062_amount"
+                  "pivoted": "dagobah_311.tatooine_133@orange.fr_amount"
                 }
               ]
             },
             {
               "keyValues": [
-                "4150"
+                "dagobah_84@others.com"
               ],
-              "name": "4150",
+              "name": "dagobah_84@others.com",
               "valueColumns": [
                 {
                   "source": "amount",
-                  "pivoted": "4150_amount"
+                  "pivoted": "dagobah_84@others.com_amount"
                 }
               ]
             },
             {
               "keyValues": [
-                "4348"
+                "dathomir_132.concord_dawn_69@outlook.fr"
               ],
-              "name": "4348",
+              "name": "dathomir_132.concord_dawn_69@outlook.fr",
               "valueColumns": [
                 {
                   "source": "amount",
-                  "pivoted": "4348_amount"
+                  "pivoted": "dathomir_132.concord_dawn_69@outlook.fr_amount"
                 }
               ]
             },
             {
               "keyValues": [
-                "4515"
+                "geonosis_77@outlook.fr"
               ],
-              "name": "4515",
+              "name": "geonosis_77@outlook.fr",
               "valueColumns": [
                 {
                   "source": "amount",
-                  "pivoted": "4515_amount"
+                  "pivoted": "geonosis_77@outlook.fr_amount"
                 }
               ]
             },
             {
               "keyValues": [
-                "5043"
+                "haruun_kal_249@gmail.com"
               ],
-              "name": "5043",
+              "name": "haruun_kal_249@gmail.com",
               "valueColumns": [
                 {
                   "source": "amount",
-                  "pivoted": "5043_amount"
+                  "pivoted": "haruun_kal_249@gmail.com_amount"
                 }
               ]
             },
             {
               "keyValues": [
-                "5069"
+                "haruun_kal_329@gmail.com"
               ],
-              "name": "5069",
+              "name": "haruun_kal_329@gmail.com",
               "valueColumns": [
                 {
                   "source": "amount",
-                  "pivoted": "5069_amount"
+                  "pivoted": "haruun_kal_329@gmail.com_amount"
                 }
               ]
             },
             {
               "keyValues": [
-                "5106"
+                "haruun_kal_93@yahoo.fr"
               ],
-              "name": "5106",
+              "name": "haruun_kal_93@yahoo.fr",
               "valueColumns": [
                 {
                   "source": "amount",
-                  "pivoted": "5106_amount"
+                  "pivoted": "haruun_kal_93@yahoo.fr_amount"
                 }
               ]
             },
             {
               "keyValues": [
-                "5201"
+                "hoth_172@gmail.com"
               ],
-              "name": "5201",
+              "name": "hoth_172@gmail.com",
               "valueColumns": [
                 {
                   "source": "amount",
-                  "pivoted": "5201_amount"
+                  "pivoted": "hoth_172@gmail.com_amount"
                 }
               ]
             },
             {
               "keyValues": [
-                "5203"
+                "hoth_87@yahoo.fr"
               ],
-              "name": "5203",
+              "name": "hoth_87@yahoo.fr",
               "valueColumns": [
                 {
                   "source": "amount",
-                  "pivoted": "5203_amount"
+                  "pivoted": "hoth_87@yahoo.fr_amount"
                 }
               ]
             },
             {
               "keyValues": [
-                "5338"
+                "kamino_285@others.com"
               ],
-              "name": "5338",
+              "name": "kamino_285@others.com",
               "valueColumns": [
                 {
                   "source": "amount",
-                  "pivoted": "5338_amount"
+                  "pivoted": "kamino_285@others.com_amount"
                 }
               ]
             },
             {
               "keyValues": [
-                "5513"
+                "polis_massa_53@others.com"
               ],
-              "name": "5513",
+              "name": "polis_massa_53@others.com",
               "valueColumns": [
                 {
                   "source": "amount",
-                  "pivoted": "5513_amount"
+                  "pivoted": "polis_massa_53@others.com_amount"
                 }
               ]
             },
             {
               "keyValues": [
-                "5515"
+                "skako_115@yahoo.fr"
               ],
-              "name": "5515",
+              "name": "skako_115@yahoo.fr",
               "valueColumns": [
                 {
                   "source": "amount",
-                  "pivoted": "5515_amount"
+                  "pivoted": "skako_115@yahoo.fr_amount"
                 }
               ]
             },
             {
               "keyValues": [
-                "5537"
+                "socorro_268@others.com"
               ],
-              "name": "5537",
+              "name": "socorro_268@others.com",
               "valueColumns": [
                 {
                   "source": "amount",
-                  "pivoted": "5537_amount"
+                  "pivoted": "socorro_268@others.com_amount"
                 }
               ]
             },
             {
               "keyValues": [
-                "5886"
+                "stewjon_184.ryloth_80@gmail.com"
               ],
-              "name": "5886",
+              "name": "stewjon_184.ryloth_80@gmail.com",
               "valueColumns": [
                 {
                   "source": "amount",
-                  "pivoted": "5886_amount"
+                  "pivoted": "stewjon_184.ryloth_80@gmail.com_amount"
                 }
               ]
             },
             {
               "keyValues": [
-                "5889"
+                "tatooine_364@others.com"
               ],
-              "name": "5889",
+              "name": "tatooine_364@others.com",
               "valueColumns": [
                 {
                   "source": "amount",
-                  "pivoted": "5889_amount"
+                  "pivoted": "tatooine_364@others.com_amount"
                 }
               ]
             },
             {
               "keyValues": [
-                "5934"
+                "tatooine_373@others.com"
               ],
-              "name": "5934",
+              "name": "tatooine_373@others.com",
               "valueColumns": [
                 {
                   "source": "amount",
-                  "pivoted": "5934_amount"
+                  "pivoted": "tatooine_373@others.com_amount"
                 }
               ]
             },
             {
               "keyValues": [
-                "6180"
+                "tatooine_388@others.com"
               ],
-              "name": "6180",
+              "name": "tatooine_388@others.com",
               "valueColumns": [
                 {
                   "source": "amount",
-                  "pivoted": "6180_amount"
+                  "pivoted": "tatooine_388@others.com_amount"
                 }
               ]
             },
             {
               "keyValues": [
-                "704"
+                "zolan_157@others.com"
               ],
-              "name": "704",
+              "name": "zolan_157@others.com",
               "valueColumns": [
                 {
                   "source": "amount",
-                  "pivoted": "704_amount"
+                  "pivoted": "zolan_157@others.com_amount"
                 }
               ]
             }
