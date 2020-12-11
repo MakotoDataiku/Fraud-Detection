@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1607684893393
+    "lastModifiedOn": 1607684897438
   },
   "creationTag": {
     "versionNumber": 0,
@@ -103,7 +103,7 @@
         "type": "string"
       }
     ],
-    "userModified": true,
+    "userModified": false,
     "metadata": {
       "engineType": "DSS",
       "pivotElementsModalities": [
@@ -116,8 +116,27 @@
             "topnLimit": 20,
             "minOccLimit": 0,
             "explicitValues": [],
-            "globalCount": true,
-            "valueColumns": []
+            "globalCount": false,
+            "valueColumns": [
+              {
+                "column": "id_company",
+                "type": "string",
+                "min": false,
+                "max": false,
+                "count": false,
+                "countDistinct": false,
+                "sum": false,
+                "concat": false,
+                "stddev": false,
+                "avg": false,
+                "sum2": false,
+                "first": true,
+                "last": false,
+                "concatDistinct": false,
+                "firstLastNotNull": false,
+                "orderColumn": "date"
+              }
+            ]
           },
           "pivotedModalities": [
             {
@@ -125,24 +144,36 @@
                 "0"
               ],
               "name": "0",
-              "valueColumns": [],
-              "globalCountColumn": "0_count"
+              "valueColumns": [
+                {
+                  "source": "id_company",
+                  "pivoted": "0_id_company"
+                }
+              ]
             },
             {
               "keyValues": [
                 "1"
               ],
               "name": "1",
-              "valueColumns": [],
-              "globalCountColumn": "1_count"
+              "valueColumns": [
+                {
+                  "source": "id_company",
+                  "pivoted": "1_id_company"
+                }
+              ]
             },
             {
               "keyValues": [
                 "2"
               ],
               "name": "2",
-              "valueColumns": [],
-              "globalCountColumn": "2_count"
+              "valueColumns": [
+                {
+                  "source": "id_company",
+                  "pivoted": "2_id_company"
+                }
+              ]
             }
           ]
         }
