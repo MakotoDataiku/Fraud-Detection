@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1607684897438
+    "lastModifiedOn": 1607685029220
   },
   "creationTag": {
     "versionNumber": 0,
@@ -91,15 +91,83 @@
         "type": "string"
       },
       {
-        "name": "0_id_company_first",
+        "name": "1022_amount_max",
         "type": "string"
       },
       {
-        "name": "1_id_company_first",
+        "name": "1645_amount_max",
         "type": "string"
       },
       {
-        "name": "2_id_company_first",
+        "name": "3062_amount_max",
+        "type": "string"
+      },
+      {
+        "name": "4150_amount_max",
+        "type": "string"
+      },
+      {
+        "name": "4348_amount_max",
+        "type": "string"
+      },
+      {
+        "name": "4515_amount_max",
+        "type": "string"
+      },
+      {
+        "name": "5043_amount_max",
+        "type": "string"
+      },
+      {
+        "name": "5069_amount_max",
+        "type": "string"
+      },
+      {
+        "name": "5106_amount_max",
+        "type": "string"
+      },
+      {
+        "name": "5201_amount_max",
+        "type": "string"
+      },
+      {
+        "name": "5203_amount_max",
+        "type": "string"
+      },
+      {
+        "name": "5338_amount_max",
+        "type": "string"
+      },
+      {
+        "name": "5513_amount_max",
+        "type": "string"
+      },
+      {
+        "name": "5515_amount_max",
+        "type": "string"
+      },
+      {
+        "name": "5537_amount_max",
+        "type": "string"
+      },
+      {
+        "name": "5886_amount_max",
+        "type": "string"
+      },
+      {
+        "name": "5889_amount_max",
+        "type": "string"
+      },
+      {
+        "name": "5934_amount_max",
+        "type": "string"
+      },
+      {
+        "name": "6180_amount_max",
+        "type": "string"
+      },
+      {
+        "name": "704_amount_max",
         "type": "string"
       }
     ],
@@ -110,7 +178,7 @@
         {
           "pivotElement": {
             "keyColumns": [
-              "type"
+              "id_company"
             ],
             "valueLimit": "TOP_N",
             "topnLimit": 20,
@@ -119,10 +187,10 @@
             "globalCount": false,
             "valueColumns": [
               {
-                "column": "id_company",
+                "column": "amount",
                 "type": "string",
                 "min": false,
-                "max": false,
+                "max": true,
                 "count": false,
                 "countDistinct": false,
                 "sum": false,
@@ -130,48 +198,251 @@
                 "stddev": false,
                 "avg": false,
                 "sum2": false,
-                "first": true,
+                "first": false,
                 "last": false,
                 "concatDistinct": false,
-                "firstLastNotNull": false,
-                "orderColumn": "date"
+                "firstLastNotNull": false
               }
             ]
           },
           "pivotedModalities": [
             {
               "keyValues": [
-                "0"
+                "1022"
               ],
-              "name": "0",
+              "name": "1022",
               "valueColumns": [
                 {
-                  "source": "id_company",
-                  "pivoted": "0_id_company"
+                  "source": "amount",
+                  "pivoted": "1022_amount"
                 }
               ]
             },
             {
               "keyValues": [
-                "1"
+                "1645"
               ],
-              "name": "1",
+              "name": "1645",
               "valueColumns": [
                 {
-                  "source": "id_company",
-                  "pivoted": "1_id_company"
+                  "source": "amount",
+                  "pivoted": "1645_amount"
                 }
               ]
             },
             {
               "keyValues": [
-                "2"
+                "3062"
               ],
-              "name": "2",
+              "name": "3062",
               "valueColumns": [
                 {
-                  "source": "id_company",
-                  "pivoted": "2_id_company"
+                  "source": "amount",
+                  "pivoted": "3062_amount"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "4150"
+              ],
+              "name": "4150",
+              "valueColumns": [
+                {
+                  "source": "amount",
+                  "pivoted": "4150_amount"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "4348"
+              ],
+              "name": "4348",
+              "valueColumns": [
+                {
+                  "source": "amount",
+                  "pivoted": "4348_amount"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "4515"
+              ],
+              "name": "4515",
+              "valueColumns": [
+                {
+                  "source": "amount",
+                  "pivoted": "4515_amount"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "5043"
+              ],
+              "name": "5043",
+              "valueColumns": [
+                {
+                  "source": "amount",
+                  "pivoted": "5043_amount"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "5069"
+              ],
+              "name": "5069",
+              "valueColumns": [
+                {
+                  "source": "amount",
+                  "pivoted": "5069_amount"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "5106"
+              ],
+              "name": "5106",
+              "valueColumns": [
+                {
+                  "source": "amount",
+                  "pivoted": "5106_amount"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "5201"
+              ],
+              "name": "5201",
+              "valueColumns": [
+                {
+                  "source": "amount",
+                  "pivoted": "5201_amount"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "5203"
+              ],
+              "name": "5203",
+              "valueColumns": [
+                {
+                  "source": "amount",
+                  "pivoted": "5203_amount"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "5338"
+              ],
+              "name": "5338",
+              "valueColumns": [
+                {
+                  "source": "amount",
+                  "pivoted": "5338_amount"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "5513"
+              ],
+              "name": "5513",
+              "valueColumns": [
+                {
+                  "source": "amount",
+                  "pivoted": "5513_amount"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "5515"
+              ],
+              "name": "5515",
+              "valueColumns": [
+                {
+                  "source": "amount",
+                  "pivoted": "5515_amount"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "5537"
+              ],
+              "name": "5537",
+              "valueColumns": [
+                {
+                  "source": "amount",
+                  "pivoted": "5537_amount"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "5886"
+              ],
+              "name": "5886",
+              "valueColumns": [
+                {
+                  "source": "amount",
+                  "pivoted": "5886_amount"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "5889"
+              ],
+              "name": "5889",
+              "valueColumns": [
+                {
+                  "source": "amount",
+                  "pivoted": "5889_amount"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "5934"
+              ],
+              "name": "5934",
+              "valueColumns": [
+                {
+                  "source": "amount",
+                  "pivoted": "5934_amount"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "6180"
+              ],
+              "name": "6180",
+              "valueColumns": [
+                {
+                  "source": "amount",
+                  "pivoted": "6180_amount"
+                }
+              ]
+            },
+            {
+              "keyValues": [
+                "704"
+              ],
+              "name": "704",
+              "valueColumns": [
+                {
+                  "source": "amount",
+                  "pivoted": "704_amount"
                 }
               ]
             }
