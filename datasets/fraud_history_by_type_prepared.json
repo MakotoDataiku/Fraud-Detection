@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1607685333323
+    "lastModifiedOn": 1607685488093
   },
   "creationTag": {
     "versionNumber": 0,
@@ -87,412 +87,400 @@
   "schema": {
     "columns": [
       {
-        "name": "date",
+        "name": "id_company",
         "type": "string"
       },
       {
-        "name": "2014-06-02 09:28:07",
+        "name": "1022",
         "type": "bigint"
       },
       {
-        "name": "2014-06-02 12:54:50",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-02 14:44:46",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-03 00:07:25",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-03 09:42:08",
+        "name": "1247",
         "type": "bigint"
       },
       {
-        "name": "2014-06-03 09:42:58",
+        "name": "1361",
         "type": "bigint"
       },
       {
-        "name": "2014-06-03 15:29:26",
+        "name": "1472",
         "type": "bigint"
       },
       {
-        "name": "2014-06-03 15:32:05",
+        "name": "1645",
         "type": "bigint"
       },
       {
-        "name": "2014-06-03 18:21:55",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-03 18:24:25",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-03 21:08:59",
+        "name": "1764",
         "type": "bigint"
       },
       {
-        "name": "2014-06-04 08:48:48",
+        "name": "2027",
         "type": "bigint"
       },
       {
-        "name": "2014-06-04 13:20:38",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-04 13:23:18",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-04 20:30:30",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-05 11:01:34",
+        "name": "2097",
         "type": "bigint"
       },
       {
-        "name": "2014-06-05 17:56:41",
+        "name": "2322",
         "type": "bigint"
       },
       {
-        "name": "2014-06-05 20:01:42",
+        "name": "2323",
         "type": "bigint"
       },
       {
-        "name": "2014-06-06 10:14:19",
+        "name": "2395",
         "type": "bigint"
       },
       {
-        "name": "2014-06-06 10:15:40",
+        "name": "2427",
         "type": "bigint"
       },
       {
-        "name": "2014-06-06 22:59:45",
+        "name": "2569",
         "type": "bigint"
       },
       {
-        "name": "2014-06-06 23:07:57",
+        "name": "2597",
         "type": "bigint"
       },
       {
-        "name": "2014-06-06 23:14:43",
+        "name": "2735",
         "type": "bigint"
       },
       {
-        "name": "2014-06-06 23:22:20",
+        "name": "2736",
         "type": "bigint"
       },
       {
-        "name": "2014-06-09 01:03:24",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-09 01:06:21",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-09 15:58:54",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-10 01:18:37",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-10 01:25:49",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-10 04:33:28",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-10 09:58:25",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-10 16:50:41",
+        "name": "2871",
         "type": "bigint"
       },
       {
-        "name": "2014-06-10 16:52:15",
+        "name": "2952",
         "type": "bigint"
       },
       {
-        "name": "2014-06-11 13:40:49",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-11 13:41:55",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-11 13:42:46",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-11 13:43:47",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-11 13:53:59",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-11 15:14:13",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-11 17:13:58",
+        "name": "2965",
         "type": "bigint"
       },
       {
-        "name": "2014-06-11 18:16:29",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-12 02:14:29",
+        "name": "3062",
         "type": "bigint"
       },
       {
-        "name": "2014-06-12 11:39:50",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-12 12:49:05",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-12 12:54:12",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-12 13:01:52",
+        "name": "3141",
         "type": "bigint"
       },
       {
-        "name": "2014-06-12 13:02:44",
+        "name": "3281",
         "type": "bigint"
       },
       {
-        "name": "2014-06-12 13:39:27",
+        "name": "3429",
         "type": "bigint"
       },
       {
-        "name": "2014-06-13 07:29:46",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-13 13:41:20",
+        "name": "3499",
         "type": "bigint"
       },
       {
-        "name": "2014-06-13 13:47:08",
+        "name": "3610",
         "type": "bigint"
       },
       {
-        "name": "2014-06-13 13:48:30",
+        "name": "3658",
         "type": "bigint"
       },
       {
-        "name": "2014-06-13 13:50:09",
+        "name": "3670",
         "type": "bigint"
       },
       {
-        "name": "2014-06-13 13:51:41",
+        "name": "3707",
         "type": "bigint"
       },
       {
-        "name": "2014-06-13 13:52:40",
+        "name": "3822",
         "type": "bigint"
       },
       {
-        "name": "2014-06-13 14:08:45",
+        "name": "3824",
         "type": "bigint"
       },
       {
-        "name": "2014-06-13 14:09:30",
+        "name": "3863",
         "type": "bigint"
       },
       {
-        "name": "2014-06-13 14:10:17",
+        "name": "3888",
         "type": "bigint"
       },
       {
-        "name": "2014-06-13 15:40:19",
+        "name": "3893",
         "type": "bigint"
       },
       {
-        "name": "2014-06-13 17:55:11",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-13 18:21:57",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-13 18:44:51",
+        "name": "3912",
         "type": "bigint"
       },
       {
-        "name": "2014-06-13 22:20:03",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-13 22:36:03",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-13 22:42:04",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-13 22:48:04",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-14 10:47:45",
+        "name": "4150",
         "type": "bigint"
       },
       {
-        "name": "2014-06-14 10:52:48",
+        "name": "4172",
         "type": "bigint"
       },
       {
-        "name": "2014-06-14 14:47:32",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-14 14:49:40",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-15 18:21:26",
+        "name": "4246",
         "type": "bigint"
       },
       {
-        "name": "2014-06-15 18:21:52",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-15 18:22:24",
+        "name": "4348",
         "type": "bigint"
       },
       {
-        "name": "2014-06-15 18:28:56",
+        "name": "4380",
         "type": "bigint"
       },
       {
-        "name": "2014-06-15 18:36:40",
+        "name": "4410",
         "type": "bigint"
       },
       {
-        "name": "2014-06-15 18:40:10",
+        "name": "4473",
         "type": "bigint"
       },
       {
-        "name": "2014-06-16 09:08:08",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-16 18:01:12",
+        "name": "4515",
         "type": "bigint"
       },
       {
-        "name": "2014-06-16 19:26:44",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-16 19:28:07",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-16 19:29:35",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-16 20:42:24",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-16 21:00:22",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-16 22:01:55",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-16 23:24:40",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-17 06:52:30",
+        "name": "4681",
         "type": "bigint"
       },
       {
-        "name": "2014-06-17 07:01:18",
+        "name": "4707",
         "type": "bigint"
       },
       {
-        "name": "2014-06-17 07:11:34",
+        "name": "4713",
         "type": "bigint"
       },
       {
-        "name": "2014-06-17 07:19:56",
+        "name": "4811",
         "type": "bigint"
       },
       {
-        "name": "2014-06-17 15:28:19",
+        "name": "4828",
         "type": "bigint"
       },
       {
-        "name": "2014-06-17 15:35:11",
-        "type": "double"
-      },
-      {
-        "name": "2014-06-17 15:55:24",
-        "type": "double"
-      },
-      {
-        "name": "2014-06-17 16:01:39",
+        "name": "4923",
         "type": "bigint"
       },
       {
-        "name": "2014-06-17 16:36:23",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-17 16:52:17",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-17 19:43:00",
-        "type": "string"
-      },
-      {
-        "name": "2014-06-17 22:41:10",
+        "name": "4942",
         "type": "bigint"
       },
       {
-        "name": "2014-06-18 01:03:51",
-        "type": "double"
+        "name": "5030",
+        "type": "bigint"
       },
       {
-        "name": "2014-06-18 01:06:13",
-        "type": "double"
+        "name": "5043",
+        "type": "bigint"
       },
       {
-        "name": "2014-06-18 12:52:32",
-        "type": "string"
+        "name": "5055",
+        "type": "bigint"
       },
       {
-        "name": "2014-06-18 13:43:16",
-        "type": "string"
+        "name": "5069",
+        "type": "bigint"
+      },
+      {
+        "name": "5073",
+        "type": "bigint"
+      },
+      {
+        "name": "5089",
+        "type": "bigint"
+      },
+      {
+        "name": "5096",
+        "type": "bigint"
+      },
+      {
+        "name": "5106",
+        "type": "bigint"
+      },
+      {
+        "name": "5142",
+        "type": "bigint"
+      },
+      {
+        "name": "5183",
+        "type": "bigint"
+      },
+      {
+        "name": "5201",
+        "type": "bigint"
+      },
+      {
+        "name": "5203",
+        "type": "bigint"
+      },
+      {
+        "name": "5258",
+        "type": "bigint"
+      },
+      {
+        "name": "5287",
+        "type": "bigint"
+      },
+      {
+        "name": "5299",
+        "type": "bigint"
+      },
+      {
+        "name": "5322",
+        "type": "bigint"
+      },
+      {
+        "name": "5324",
+        "type": "bigint"
+      },
+      {
+        "name": "5338",
+        "type": "bigint"
+      },
+      {
+        "name": "5355",
+        "type": "bigint"
+      },
+      {
+        "name": "5366",
+        "type": "bigint"
+      },
+      {
+        "name": "5370",
+        "type": "bigint"
+      },
+      {
+        "name": "5376",
+        "type": "bigint"
+      },
+      {
+        "name": "5458",
+        "type": "bigint"
+      },
+      {
+        "name": "5460",
+        "type": "bigint"
+      },
+      {
+        "name": "5464",
+        "type": "bigint"
+      },
+      {
+        "name": "5513",
+        "type": "bigint"
+      },
+      {
+        "name": "5515",
+        "type": "bigint"
+      },
+      {
+        "name": "5525",
+        "type": "bigint"
+      },
+      {
+        "name": "5537",
+        "type": "bigint"
+      },
+      {
+        "name": "5596",
+        "type": "bigint"
+      },
+      {
+        "name": "5621",
+        "type": "bigint"
+      },
+      {
+        "name": "5680",
+        "type": "bigint"
+      },
+      {
+        "name": "5702",
+        "type": "bigint"
+      },
+      {
+        "name": "5731",
+        "type": "bigint"
+      },
+      {
+        "name": "5743",
+        "type": "bigint"
+      },
+      {
+        "name": "5748",
+        "type": "bigint"
+      },
+      {
+        "name": "5886",
+        "type": "bigint"
+      },
+      {
+        "name": "5889",
+        "type": "bigint"
+      },
+      {
+        "name": "5934",
+        "type": "bigint"
+      },
+      {
+        "name": "6079",
+        "type": "bigint"
+      },
+      {
+        "name": "6085",
+        "type": "bigint"
+      },
+      {
+        "name": "6153",
+        "type": "bigint"
+      },
+      {
+        "name": "6180",
+        "type": "bigint"
+      },
+      {
+        "name": "6318",
+        "type": "bigint"
+      },
+      {
+        "name": "6355",
+        "type": "bigint"
+      },
+      {
+        "name": "6360",
+        "type": "bigint"
+      },
+      {
+        "name": "6606",
+        "type": "bigint"
+      },
+      {
+        "name": "704",
+        "type": "bigint"
+      },
+      {
+        "name": "821",
+        "type": "bigint"
       }
     ],
     "userModified": true
