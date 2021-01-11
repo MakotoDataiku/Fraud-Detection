@@ -34,7 +34,7 @@
     {
       "preview": false,
       "metaType": "PROCESSOR",
-      "disabled": false,
+      "disabled": true,
       "type": "FillEmptyWithValue",
       "params": {
         "columns": [
