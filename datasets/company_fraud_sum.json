@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1610372145378
+    "lastModifiedOn": 1610374495066
   },
   "creationTag": {
     "versionNumber": 0,
@@ -71,7 +71,7 @@
         "type": "bigint"
       },
       {
-        "name": "fraud_sum",
+        "name": "company_fraud_sum",
         "type": "bigint"
       }
     ],
