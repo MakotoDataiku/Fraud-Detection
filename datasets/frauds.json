@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 9,
+    "versionNumber": 10,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1610399503704
+    "lastModifiedOn": 1610399506036
   },
   "creationTag": {
     "versionNumber": 0,
@@ -72,7 +72,7 @@
       },
       {
         "name": "amount",
-        "type": "double"
+        "type": "string"
       },
       {
         "name": "id_company",
