@@ -67,7 +67,63 @@
       "index": 1
     }
   ],
+  "copySchemaFromDatasetWithName": "no_frauds_prepared",
   "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "index",
+            "type": "int"
+          },
+          {
+            "name": "date",
+            "type": "string"
+          },
+          {
+            "name": "type",
+            "type": "int"
+          },
+          {
+            "name": "amount",
+            "type": "double"
+          },
+          {
+            "name": "id_company",
+            "type": "bigint"
+          },
+          {
+            "name": "remote_ip",
+            "type": "string"
+          },
+          {
+            "name": "remote_ip_country",
+            "type": "string"
+          },
+          {
+            "name": "remote_ip_tor",
+            "type": "bigint"
+          },
+          {
+            "name": "card_mask",
+            "type": "string"
+          },
+          {
+            "name": "card_country",
+            "type": "string"
+          },
+          {
+            "name": "email",
+            "type": "string"
+          },
+          {
+            "name": "fraud",
+            "type": "string"
+          }
+        ],
+        "userModified": false
+      }
+    },
     "distinct": false,
     "enabled": false
   },
