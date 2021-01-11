@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1610374938042
+    "lastModifiedOn": 1610375088119
   },
   "creationTag": {
     "versionNumber": 0,
@@ -60,7 +60,7 @@
     "columns": [
       {
         "name": "index",
-        "type": "string"
+        "type": "int"
       },
       {
         "name": "date",
@@ -116,6 +116,14 @@
       },
       {
         "name": "customer_country_rank",
+        "type": "bigint"
+      },
+      {
+        "name": "customer_fraud_sum",
+        "type": "bigint"
+      },
+      {
+        "name": "company_fraud_sum",
         "type": "bigint"
       }
     ],
