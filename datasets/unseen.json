@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1610400657484
+    "lastModifiedOn": 1610400674832
   },
   "creationTag": {
     "versionNumber": 0,
@@ -57,7 +57,92 @@
     "readSQLDateColsAsDSSDates": true
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "index",
+        "type": "string"
+      },
+      {
+        "name": "date",
+        "type": "string"
+      },
+      {
+        "name": "date_parsed",
+        "type": "date"
+      },
+      {
+        "name": "year",
+        "type": "bigint"
+      },
+      {
+        "name": "month",
+        "type": "bigint"
+      },
+      {
+        "name": "day",
+        "type": "bigint"
+      },
+      {
+        "name": "type",
+        "type": "bigint"
+      },
+      {
+        "name": "amount",
+        "type": "double"
+      },
+      {
+        "name": "id_company",
+        "type": "bigint"
+      },
+      {
+        "name": "remote_ip",
+        "type": "string"
+      },
+      {
+        "name": "remote_ip_country",
+        "type": "string"
+      },
+      {
+        "name": "remote_ip_tor",
+        "type": "bigint"
+      },
+      {
+        "name": "card_mask",
+        "type": "string"
+      },
+      {
+        "name": "card_country",
+        "type": "string"
+      },
+      {
+        "name": "email",
+        "type": "string"
+      },
+      {
+        "name": "fraud",
+        "type": "bigint"
+      },
+      {
+        "name": "benef_rank",
+        "type": "bigint"
+      },
+      {
+        "name": "customer_rank",
+        "type": "bigint"
+      },
+      {
+        "name": "customer_country_rank",
+        "type": "bigint"
+      },
+      {
+        "name": "customer_fraud_sum",
+        "type": "bigint"
+      },
+      {
+        "name": "company_fraud_sum",
+        "type": "bigint"
+      }
+    ],
     "userModified": true
   },
   "metrics": {
