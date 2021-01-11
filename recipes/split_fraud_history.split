@@ -3,14 +3,14 @@
   "centileSplits": [
     {
       "outputIndex": 0,
-      "share": 50.0
+      "share": 50
     }
   ],
-  "defaultOutputIndex": 1,
   "preFilter": {
     "distinct": false,
     "enabled": false
   },
+  "defaultOutputIndex": 1,
   "seed": 1337,
   "randomColumns": [],
   "centileOrders": [],
@@ -18,17 +18,18 @@
   "randomSplits": [
     {
       "outputIndex": 0,
-      "share": 50.0
+      "share": 80
     }
   ],
   "randomColumnsSplits": [
     {
       "outputIndex": 0,
-      "share": 50.0
+      "share": 50
     }
   ],
   "computedColumns": [],
   "writeComputedColumnsInOutput": false,
+  "mode": "RANDOM",
   "centileTDigest": false,
   "valueSplits": [
     {
@@ -89,6 +90,56 @@
         "uiData": {
           "mode": "\u0026\u0026",
           "conditions": []
+        },
+        "$status": {
+          "schema": {
+            "columns": [
+              {
+                "name": "date",
+                "type": "string"
+              },
+              {
+                "name": "type",
+                "type": "string"
+              },
+              {
+                "name": "amount",
+                "type": "string"
+              },
+              {
+                "name": "id_company",
+                "type": "string"
+              },
+              {
+                "name": "remote_ip",
+                "type": "string"
+              },
+              {
+                "name": "remote_ip_country",
+                "type": "string"
+              },
+              {
+                "name": "remote_ip_tor",
+                "type": "string"
+              },
+              {
+                "name": "card_mask",
+                "type": "string"
+              },
+              {
+                "name": "card_country",
+                "type": "string"
+              },
+              {
+                "name": "email",
+                "type": "string"
+              },
+              {
+                "name": "fraud",
+                "type": "string"
+              }
+            ]
+          }
         },
         "distinct": false,
         "enabled": true
