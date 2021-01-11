@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1610374728388
+    "lastModifiedOn": 1610374793944
   },
   "creationTag": {
     "versionNumber": 0,
@@ -79,11 +79,11 @@
         "type": "bigint"
       },
       {
-        "name": "email",
-        "type": "string"
+        "name": "customer_rank",
+        "type": "bigint"
       },
       {
-        "name": "customer_rank",
+        "name": "customer_country_rank",
         "type": "bigint"
       }
     ],
