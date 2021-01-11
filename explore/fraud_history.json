@@ -26,7 +26,7 @@
     "sorting": [
       {
         "column": "date",
-        "ascending": true
+        "ascending": false
       }
     ],
     "analysisColumnData": {},
