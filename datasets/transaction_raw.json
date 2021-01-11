@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1610399312541
+    "lastModifiedOn": 1610399550048
   },
   "creationTag": {
     "versionNumber": 0,
@@ -60,7 +60,7 @@
     "columns": [
       {
         "name": "index",
-        "type": "int"
+        "type": "string"
       },
       {
         "name": "date",
@@ -68,15 +68,15 @@
       },
       {
         "name": "type",
-        "type": "int"
+        "type": "string"
       },
       {
         "name": "amount",
-        "type": "double"
+        "type": "string"
       },
       {
         "name": "id_company",
-        "type": "bigint"
+        "type": "string"
       },
       {
         "name": "remote_ip",
@@ -88,7 +88,7 @@
       },
       {
         "name": "remote_ip_tor",
-        "type": "bigint"
+        "type": "string"
       },
       {
         "name": "card_mask",
