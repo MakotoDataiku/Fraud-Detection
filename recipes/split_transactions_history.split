@@ -98,7 +98,7 @@
             }
           ]
         },
-        "expression": "date \u003c \u00272014-10-01\u0027",
+        "expression": "date \u003c \u00272014-12-01\u0027",
         "$status": {
           "schema": {
             "columns": [
@@ -152,7 +152,7 @@
           "fullyTranslated": true,
           "ok": true,
           "message": "Incorrect formula: \u0027date \u003c \"\u0027 : Missing number, string, identifier, regex, or parenthesized expression(Parsing error at offset 7)",
-          "sql": "\"date\" \u003c \u00272014-10-01\u0027"
+          "sql": "\"date\" \u003c \u00272014-12-01\u0027"
         },
         "distinct": false,
         "enabled": true
