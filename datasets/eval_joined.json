@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1610379452051
+    "lastModifiedOn": 1610397305060
   },
   "creationTag": {
     "versionNumber": 0,
@@ -100,7 +100,7 @@
       },
       {
         "name": "amount",
-        "type": "double"
+        "type": "string"
       },
       {
         "name": "id_company",
@@ -116,7 +116,7 @@
       },
       {
         "name": "remote_ip_tor",
-        "type": "int"
+        "type": "string"
       },
       {
         "name": "card_mask",
@@ -132,7 +132,7 @@
       },
       {
         "name": "fraud",
-        "type": "bigint"
+        "type": "string"
       }
     ],
     "userModified": true
