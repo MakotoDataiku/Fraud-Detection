@@ -52,7 +52,7 @@
     "main": {
       "items": [
         {
-          "ref": "transactions_joined",
+          "ref": "transactions_normal",
           "deps": []
         }
       ]
@@ -69,11 +69,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1610371827390
+    "lastModifiedOn": 1610398443714
   },
   "creationTag": {
     "versionNumber": 0,
