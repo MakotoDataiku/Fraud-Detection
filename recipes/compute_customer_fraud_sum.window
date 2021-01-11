@@ -513,5 +513,7 @@
   "rank": false,
   "denseRank": false,
   "rowNumber": false,
-  "outputColumnNameOverrides": {}
+  "outputColumnNameOverrides": {
+    "fraud_sum": "customer_fraud_sum"
+  }
 }
