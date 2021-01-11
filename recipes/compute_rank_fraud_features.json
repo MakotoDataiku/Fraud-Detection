@@ -17,6 +17,10 @@
         {
           "ref": "customer_rank",
           "deps": []
+        },
+        {
+          "ref": "customer_country_rank_frauds",
+          "deps": []
         }
       ]
     }
@@ -32,11 +36,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1610374728390
+    "lastModifiedOn": 1610374794106
   },
   "creationTag": {
     "versionNumber": 0,
