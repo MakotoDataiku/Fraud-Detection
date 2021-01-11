@@ -116,7 +116,7 @@
     },
     {
       "name": "amount",
-      "type": "double",
+      "type": "string",
       "table": 0
     },
     {
@@ -136,7 +136,7 @@
     },
     {
       "name": "remote_ip_tor",
-      "type": "int",
+      "type": "string",
       "table": 0
     },
     {
@@ -156,7 +156,7 @@
     },
     {
       "name": "fraud",
-      "type": "bigint",
+      "type": "string",
       "table": 1
     }
   ],
@@ -233,7 +233,7 @@
           },
           {
             "name": "amount",
-            "type": "double"
+            "type": "string"
           },
           {
             "name": "id_company",
@@ -249,7 +249,7 @@
           },
           {
             "name": "remote_ip_tor",
-            "type": "int"
+            "type": "string"
           },
           {
             "name": "card_mask",
@@ -265,7 +265,7 @@
           },
           {
             "name": "fraud",
-            "type": "bigint"
+            "type": "string"
           }
         ],
         "userModified": false
