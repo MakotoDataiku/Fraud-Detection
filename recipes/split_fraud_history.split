@@ -29,7 +29,7 @@
   ],
   "computedColumns": [],
   "writeComputedColumnsInOutput": false,
-  "mode": "RANDOM",
+  "mode": "FILTERS",
   "centileTDigest": false,
   "valueSplits": [
     {
@@ -88,9 +88,10 @@
     {
       "filter": {
         "uiData": {
-          "mode": "\u0026\u0026",
+          "mode": "CUSTOM",
           "conditions": []
         },
+        "expression": "date \u003c \u00272014-10-01\u0027",
         "$status": {
           "schema": {
             "columns": [
@@ -139,7 +140,12 @@
                 "type": "string"
               }
             ]
-          }
+          },
+          "validated": true,
+          "fullyTranslated": true,
+          "ok": true,
+          "message": "Filter expression is invalid",
+          "sql": "\"date\" \u003c \u00272014-10-01\u0027"
         },
         "distinct": false,
         "enabled": true
