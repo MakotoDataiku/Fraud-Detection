@@ -58,9 +58,99 @@
       "table": 0
     },
     {
+      "name": "date",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "date_parsed",
+      "type": "date",
+      "table": 0
+    },
+    {
+      "name": "year",
+      "type": "bigint",
+      "table": 0
+    },
+    {
+      "name": "month",
+      "type": "bigint",
+      "table": 0
+    },
+    {
+      "name": "day",
+      "type": "bigint",
+      "table": 0
+    },
+    {
+      "name": "type",
+      "type": "bigint",
+      "table": 0
+    },
+    {
+      "name": "amount",
+      "type": "double",
+      "table": 0
+    },
+    {
+      "name": "id_company",
+      "type": "bigint",
+      "table": 0
+    },
+    {
+      "name": "remote_ip",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "remote_ip_country",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "remote_ip_tor",
+      "type": "bigint",
+      "table": 0
+    },
+    {
+      "name": "card_mask",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "card_country",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "email",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "fraud",
+      "type": "bigint",
+      "table": 0
+    },
+    {
+      "name": "benef_rank",
+      "type": "bigint",
+      "table": 1
+    },
+    {
+      "name": "customer_rank",
+      "type": "bigint",
+      "table": 1
+    },
+    {
       "name": "customer_country_rank",
       "type": "bigint",
       "table": 1
+    },
+    {
+      "name": "customer_fraud_sum",
+      "type": "bigint",
+      "table": 2
     },
     {
       "name": "company_fraud_sum",
@@ -102,6 +192,7 @@
       }
     }
   },
+  "engineType": "DSS",
   "virtualInputs": [
     {
       "index": 2
@@ -129,7 +220,79 @@
             "type": "string"
           },
           {
+            "name": "date",
+            "type": "string"
+          },
+          {
+            "name": "date_parsed",
+            "type": "date"
+          },
+          {
+            "name": "year",
+            "type": "bigint"
+          },
+          {
+            "name": "month",
+            "type": "bigint"
+          },
+          {
+            "name": "day",
+            "type": "bigint"
+          },
+          {
+            "name": "type",
+            "type": "bigint"
+          },
+          {
+            "name": "amount",
+            "type": "double"
+          },
+          {
+            "name": "id_company",
+            "type": "bigint"
+          },
+          {
+            "name": "remote_ip",
+            "type": "string"
+          },
+          {
+            "name": "remote_ip_country",
+            "type": "string"
+          },
+          {
+            "name": "remote_ip_tor",
+            "type": "bigint"
+          },
+          {
+            "name": "card_mask",
+            "type": "string"
+          },
+          {
+            "name": "card_country",
+            "type": "string"
+          },
+          {
+            "name": "email",
+            "type": "string"
+          },
+          {
+            "name": "fraud",
+            "type": "bigint"
+          },
+          {
+            "name": "benef_rank",
+            "type": "bigint"
+          },
+          {
+            "name": "customer_rank",
+            "type": "bigint"
+          },
+          {
             "name": "customer_country_rank",
+            "type": "bigint"
+          },
+          {
+            "name": "customer_fraud_sum",
             "type": "bigint"
           },
           {
