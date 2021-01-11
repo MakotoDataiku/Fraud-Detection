@@ -7,7 +7,7 @@
       "rightLimit": {
         "decisionColumn": {}
       },
-      "type": "INNER",
+      "type": "LEFT",
       "outerJoinOnTheLeft": true,
       "on": [
         {
