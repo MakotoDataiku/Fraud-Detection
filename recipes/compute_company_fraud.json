@@ -21,18 +21,18 @@
     "main": {
       "items": [
         {
-          "ref": "company_fraud",
+          "ref": "company_fraud_sum",
           "appendMode": false
         }
       ]
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1610372062963
+    "lastModifiedOn": 1610372145481
   },
   "creationTag": {
     "versionNumber": 0,
