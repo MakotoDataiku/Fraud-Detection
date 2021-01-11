@@ -91,7 +91,7 @@
           "mode": "CUSTOM",
           "conditions": []
         },
-        "expression": "date \u003c \u00272014-10-01\u0027",
+        "expression": "date \u003c \u00272014-12-01\u0027",
         "$status": {
           "schema": {
             "columns": [
@@ -101,15 +101,15 @@
               },
               {
                 "name": "type",
-                "type": "string"
+                "type": "bigint"
               },
               {
                 "name": "amount",
-                "type": "string"
+                "type": "double"
               },
               {
                 "name": "id_company",
-                "type": "string"
+                "type": "bigint"
               },
               {
                 "name": "remote_ip",
@@ -121,7 +121,7 @@
               },
               {
                 "name": "remote_ip_tor",
-                "type": "string"
+                "type": "bigint"
               },
               {
                 "name": "card_mask",
@@ -137,7 +137,7 @@
               },
               {
                 "name": "fraud",
-                "type": "string"
+                "type": "bigint"
               }
             ]
           },
@@ -145,7 +145,7 @@
           "fullyTranslated": true,
           "ok": true,
           "message": "Filter expression is invalid",
-          "sql": "\"date\" \u003c \u00272014-10-01\u0027"
+          "sql": "\"date\" \u003c \u00272014-12-01\u0027"
         },
         "distinct": false,
         "enabled": true
