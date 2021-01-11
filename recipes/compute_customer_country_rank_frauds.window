@@ -17,7 +17,7 @@
       "lagValues": "1",
       "sum": false,
       "concat": false,
-      "type": "bigint",
+      "type": "string",
       "lead": false,
       "concatDistinct": false,
       "dateDiffUnit": "DAY",
@@ -424,6 +424,7 @@
     }
   ],
   "legacyUnboundedWindowStreamBehavior": false,
+  "engineType": "DSS",
   "windows": [
     {
       "windowUpperBound": 0,
@@ -454,7 +455,7 @@
         "columns": [
           {
             "name": "index",
-            "type": "bigint"
+            "type": "string"
           },
           {
             "name": "date",
