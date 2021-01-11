@@ -76,6 +76,61 @@
     }
   ],
   "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "index",
+            "type": "string"
+          },
+          {
+            "name": "date",
+            "type": "string"
+          },
+          {
+            "name": "type",
+            "type": "string"
+          },
+          {
+            "name": "amount",
+            "type": "string"
+          },
+          {
+            "name": "id_company",
+            "type": "string"
+          },
+          {
+            "name": "remote_ip",
+            "type": "string"
+          },
+          {
+            "name": "remote_ip_country",
+            "type": "string"
+          },
+          {
+            "name": "remote_ip_tor",
+            "type": "string"
+          },
+          {
+            "name": "card_mask",
+            "type": "string"
+          },
+          {
+            "name": "card_country",
+            "type": "string"
+          },
+          {
+            "name": "email",
+            "type": "string"
+          },
+          {
+            "name": "fraud",
+            "type": "string"
+          }
+        ],
+        "userModified": false
+      }
+    },
     "distinct": false,
     "enabled": false
   },
