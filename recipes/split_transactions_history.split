@@ -29,7 +29,7 @@
   ],
   "computedColumns": [],
   "writeComputedColumnsInOutput": false,
-  "mode": "RANDOM",
+  "mode": "FILTERS",
   "centileTDigest": false,
   "valueSplits": [
     {
@@ -88,9 +88,17 @@
     {
       "filter": {
         "uiData": {
-          "mode": "\u0026\u0026",
-          "conditions": []
+          "mode": "CUSTOM",
+          "conditions": [
+            {
+              "input": "index",
+              "col": "date",
+              "num": 0,
+              "operator": "contains"
+            }
+          ]
         },
+        "expression": "date \u003c \u00272014-10-01\u0027",
         "$status": {
           "schema": {
             "columns": [
@@ -139,7 +147,12 @@
                 "type": "string"
               }
             ]
-          }
+          },
+          "validated": true,
+          "fullyTranslated": true,
+          "ok": true,
+          "message": "Incorrect formula: \u0027date \u003c \"\u0027 : Missing number, string, identifier, regex, or parenthesized expression(Parsing error at offset 7)",
+          "sql": "\"date\" \u003c \u00272014-10-01\u0027"
         },
         "distinct": false,
         "enabled": true
