@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1610409439110
+    "lastModifiedOn": 1610409470444
   },
   "creationTag": {
     "versionNumber": 0,
@@ -58,10 +58,6 @@
   },
   "schema": {
     "columns": [
-      {
-        "name": "index",
-        "type": "bigint"
-      },
       {
         "name": "date",
         "type": "string"
@@ -119,10 +115,6 @@
         "type": "string"
       },
       {
-        "name": "fraud",
-        "type": "bigint"
-      },
-      {
         "name": "benef_rank",
         "type": "bigint"
       },
@@ -152,6 +144,10 @@
       },
       {
         "name": "prediction",
+        "type": "string"
+      },
+      {
+        "name": "fraud",
         "type": "string"
       }
     ],
