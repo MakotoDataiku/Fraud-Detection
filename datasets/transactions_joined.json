@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1610368842836
+    "lastModifiedOn": 1610368850935
   },
   "creationTag": {
     "versionNumber": 0,
@@ -105,10 +105,6 @@
       {
         "name": "fraud",
         "type": "string"
-      },
-      {
-        "name": "field_12",
-        "type": "double"
       }
     ],
     "userModified": true
