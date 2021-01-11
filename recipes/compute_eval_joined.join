@@ -4,7 +4,10 @@
       "table2": 1,
       "table1": 0,
       "conditionsMode": "AND",
-      "type": "LEFT",
+      "rightLimit": {
+        "decisionColumn": {}
+      },
+      "type": "INNER",
       "outerJoinOnTheLeft": true,
       "on": [
         {
