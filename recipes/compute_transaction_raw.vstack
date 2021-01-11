@@ -74,7 +74,7 @@
         "columns": [
           {
             "name": "index",
-            "type": "int"
+            "type": "string"
           },
           {
             "name": "date",
@@ -82,15 +82,15 @@
           },
           {
             "name": "type",
-            "type": "int"
+            "type": "string"
           },
           {
             "name": "amount",
-            "type": "double"
+            "type": "string"
           },
           {
             "name": "id_company",
-            "type": "bigint"
+            "type": "string"
           },
           {
             "name": "remote_ip",
@@ -102,7 +102,7 @@
           },
           {
             "name": "remote_ip_tor",
-            "type": "bigint"
+            "type": "string"
           },
           {
             "name": "card_mask",
