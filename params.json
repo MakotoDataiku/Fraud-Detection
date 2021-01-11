@@ -122,6 +122,7 @@
   },
   "name": "Fraud_detection",
   "projectStatus": "Sandbox",
+  "imgPattern": 3,
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -177,11 +178,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1607592762560
+    "lastModifiedOn": 1610363008806
   },
   "creationTag": {
     "versionNumber": 0,
@@ -190,6 +191,7 @@
     },
     "lastModifiedOn": 1595407157448
   },
+  "description": "https://lab.dssdemo.dataiku.com/projects/FRAUD/flow/",
   "shortDesc": "The project *Fraud_detection* was created by Makoto Miyazaki on Jul 22nd 2020",
   "tags": [],
   "customFields": {},
