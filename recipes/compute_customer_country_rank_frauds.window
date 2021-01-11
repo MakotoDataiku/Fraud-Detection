@@ -418,7 +418,7 @@
       "leadValues": "1",
       "$selected": false,
       "stddev": false,
-      "value": false,
+      "value": true,
       "leadDiff": false,
       "first": false
     }
@@ -467,6 +467,10 @@
           {
             "name": "email",
             "type": "string"
+          },
+          {
+            "name": "fraud",
+            "type": "bigint"
           },
           {
             "name": "rank",
