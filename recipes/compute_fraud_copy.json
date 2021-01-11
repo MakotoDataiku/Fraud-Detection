@@ -54,7 +54,7 @@
     "main": {
       "items": [
         {
-          "ref": "fraud_normal",
+          "ref": "fraud_history",
           "deps": []
         }
       ]
@@ -71,11 +71,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1610371400809
+    "lastModifiedOn": 1610397761616
   },
   "creationTag": {
     "versionNumber": 0,
