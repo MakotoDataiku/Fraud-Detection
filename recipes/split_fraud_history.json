@@ -11,7 +11,7 @@
     "main": {
       "items": [
         {
-          "ref": "fraud_history_prepared",
+          "ref": "fraud_history",
           "deps": []
         }
       ]
@@ -32,11 +32,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1610379325402
+    "lastModifiedOn": 1610396161863
   },
   "creationTag": {
     "versionNumber": 0,
