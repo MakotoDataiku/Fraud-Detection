@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1610379659191
+    "lastModifiedOn": 1610396897136
   },
   "creationTag": {
     "versionNumber": 0,
@@ -103,7 +103,7 @@
       },
       {
         "name": "amount",
-        "type": "double"
+        "type": "string"
       },
       {
         "name": "id_company",
@@ -119,7 +119,7 @@
       },
       {
         "name": "remote_ip_tor",
-        "type": "int"
+        "type": "string"
       },
       {
         "name": "card_mask",
