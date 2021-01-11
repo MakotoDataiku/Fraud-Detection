@@ -187,7 +187,7 @@
     "gridLength": 2
   },
   "partSource": "ACTIVE_VERSION",
-  "generatingModelId": "A-FRAUD_DETECTION-l7KZhV5J-zPvaUfBn-s1-pp1-m1",
+  "generatingModelId": "A-FRAUD_DETECTION-l7KZhV5J-zPvaUfBn-s2-pp1-m1",
   "preprocessing": {
     "reduce": {
       "kept_variance": 0.0,
@@ -415,7 +415,7 @@
       "customer_fraud_sum": {
         "rescaling": "AVGSTD",
         "missing_impute_with": "MEDIAN",
-        "role": "INPUT",
+        "role": "REJECT",
         "sendToInput": "main",
         "customHandlingCode": "",
         "binarize_constant_threshold": 0.0,
@@ -562,7 +562,7 @@
       "company_fraud_sum": {
         "rescaling": "AVGSTD",
         "missing_impute_with": "MEDIAN",
-        "role": "INPUT",
+        "role": "REJECT",
         "sendToInput": "main",
         "customHandlingCode": "",
         "binarize_constant_threshold": 0.0,
@@ -823,6 +823,7 @@
     "kfold": false
   },
   "script": {
+    "contextProjectKey": "FRAUD_DETECTION",
     "columnsSelection": {
       "mode": "ALL"
     },
