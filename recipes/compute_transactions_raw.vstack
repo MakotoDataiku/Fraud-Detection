@@ -89,11 +89,11 @@
           },
           {
             "name": "type",
-            "type": "string"
+            "type": "bigint"
           },
           {
             "name": "amount",
-            "type": "string"
+            "type": "double"
           },
           {
             "name": "id_company",
@@ -109,7 +109,7 @@
           },
           {
             "name": "remote_ip_tor",
-            "type": "string"
+            "type": "bigint"
           },
           {
             "name": "card_mask",
