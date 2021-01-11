@@ -54,7 +54,7 @@
   "selectedColumns": [
     {
       "name": "index",
-      "type": "int",
+      "type": "string",
       "table": 0
     },
     {
@@ -202,7 +202,7 @@
         "columns": [
           {
             "name": "index",
-            "type": "int"
+            "type": "string"
           },
           {
             "name": "date",
