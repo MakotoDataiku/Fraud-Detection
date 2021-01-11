@@ -518,5 +518,7 @@
   "rank": true,
   "denseRank": false,
   "rowNumber": false,
-  "outputColumnNameOverrides": {}
+  "outputColumnNameOverrides": {
+    "rank": "customer_country_rank"
+  }
 }
