@@ -29,7 +29,7 @@
   ],
   "computedColumns": [],
   "writeComputedColumnsInOutput": false,
-  "mode": "FILTERS",
+  "mode": "RANDOM",
   "centileTDigest": false,
   "valueSplits": [
     {
