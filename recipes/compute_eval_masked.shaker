@@ -26,8 +26,32 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FilterOnValue",
+      "params": {
+        "normalizationMode": "EXACT",
+        "booleanMode": "AND",
+        "columns": [
+          "fraud"
+        ],
+        "values": [
+          "1"
+        ],
+        "matchingMode": "FULL_STRING",
+        "action": "CLEAR_CELL",
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -35,8 +59,26 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
-  "sorting": [],
+  "columnWidthsByName": {
+    "date": 148,
+    "amount": 100,
+    "remote_ip": 113,
+    "remote_ip_country": 143,
+    "card_country": 105,
+    "fraud": 100,
+    "id_company": 100,
+    "index": 100,
+    "card_mask": 141,
+    "type": 100,
+    "remote_ip_tor": 113,
+    "email": 300
+  },
+  "sorting": [
+    {
+      "column": "fraud",
+      "ascending": true
+    }
+  ],
   "globalSearchQuery": "",
   "coloring": {
     "scheme": "MEANING_AND_STATUS",
