@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1610398927272
+    "lastModifiedOn": 1610399028824
   },
   "creationTag": {
     "versionNumber": 0,
@@ -60,7 +60,7 @@
     "columns": [
       {
         "name": "index",
-        "type": "string"
+        "type": "int"
       },
       {
         "name": "date",
@@ -68,7 +68,7 @@
       },
       {
         "name": "type",
-        "type": "string"
+        "type": "int"
       },
       {
         "name": "amount",
