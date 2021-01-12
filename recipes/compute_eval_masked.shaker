@@ -32,7 +32,7 @@
   },
   "steps": [
     {
-      "preview": false,
+      "preview": true,
       "metaType": "PROCESSOR",
       "disabled": false,
       "type": "FilterOnValue",
@@ -43,7 +43,8 @@
           "fraud"
         ],
         "values": [
-          "1"
+          "1",
+          "0"
         ],
         "matchingMode": "FULL_STRING",
         "action": "CLEAR_CELL",
