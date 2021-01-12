@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1610410898661
+    "lastModifiedOn": 1610410999140
   },
   "creationTag": {
     "versionNumber": 0,
@@ -156,7 +156,8 @@
       },
       {
         "name": "prediction_category",
-        "type": "string"
+        "type": "string",
+        "meaning": "Text"
       },
       {
         "name": "loss",
