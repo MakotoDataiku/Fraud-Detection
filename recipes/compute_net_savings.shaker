@@ -26,8 +26,56 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "CreateColumnWithGREL",
+      "params": {
+        "expression": "if(prediction\u003d\u003d0 \u0026\u0026 fraud\u003d\u003d0, \"TN\", \n   if(prediction\u003d\u003d0 \u0026\u0026 fraud\u003d\u003d1, \"FP\",\n      if(prediction\u003d\u003d1 \u0026\u0026 fraud\u003d\u003d0, \"FN\", \"TP\")))",
+        "column": "prediction_category"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "CreateColumnWithGREL",
+      "params": {
+        "expression": "if(prediction_category\u003d\u003d\"TP\", amount, 0)",
+        "column": "savings"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "CreateColumnWithGREL",
+      "params": {
+        "expression": "if(prediction_category\u003d\u003d\"TP\" || prediction_category\u003d\u003d\"FP\", 70, \n   if(prediction_category\u003d\u003d\"FN\", amount, 0))",
+        "column": "loss"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "CreateColumnWithGREL",
+      "params": {
+        "expression": "savings - loss",
+        "column": "net_savings"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -35,7 +83,37 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "date": 148,
+    "year": 100,
+    "remote_ip_country": 143,
+    "id_company": 100,
+    "type": 100,
+    "prediction_category": 158,
+    "proba_0": 155,
+    "loss": 100,
+    "proba_1": 148,
+    "remote_ip": 113,
+    "customer_rank": 113,
+    "card_country": 105,
+    "card_mask": 141,
+    "savings": 100,
+    "day": 100,
+    "email": 300,
+    "date_parsed": 183,
+    "amount": 100,
+    "net_savings": 100,
+    "index": 100,
+    "remote_ip_tor": 113,
+    "benef_rank": 100,
+    "customer_country_rank": 173,
+    "customer_fraud_sum": 150,
+    "month": 100,
+    "fraud": 100,
+    "prediction": 100,
+    "company_fraud_sum": 143,
+    "category": 100
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
