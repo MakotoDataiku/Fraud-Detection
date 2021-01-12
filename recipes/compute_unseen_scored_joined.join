@@ -27,6 +27,11 @@
   ],
   "selectedColumns": [
     {
+      "name": "index",
+      "type": "bigint",
+      "table": 0
+    },
+    {
       "name": "date",
       "type": "string",
       "table": 0
@@ -201,6 +206,10 @@
     "$status": {
       "schema": {
         "columns": [
+          {
+            "name": "index",
+            "type": "bigint"
+          },
           {
             "name": "date",
             "type": "string"
