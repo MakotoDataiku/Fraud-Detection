@@ -187,7 +187,7 @@
     "gridLength": 2
   },
   "partSource": "ACTIVE_VERSION",
-  "generatingModelId": "A-FRAUD_DETECTION-l7KZhV5J-zPvaUfBn-s2-pp1-m1",
+  "generatingModelId": "A-FRAUD_DETECTION-l7KZhV5J-zPvaUfBn-s3-pp1-m1",
   "preprocessing": {
     "reduce": {
       "kept_variance": 0.0,
@@ -814,9 +814,10 @@
       },
       "withinFirstN": -1,
       "partitionSelectionMethod": "ALL",
+      "column": "fraud",
       "targetRatio": 0.02,
       "maxReadUncompressedBytes": -1,
-      "samplingMethod": "FULL"
+      "samplingMethod": "CLASS_REBALANCE_TARGET_RATIO_APPROX"
     },
     "ssdTrainingRatio": 0.8,
     "ttPolicy": "SPLIT_SINGLE_DATASET",
