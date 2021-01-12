@@ -143,7 +143,7 @@
     },
     {
       "name": "fraud",
-      "type": "string",
+      "type": "bigint",
       "table": 1
     }
   ],
@@ -295,7 +295,7 @@
           },
           {
             "name": "fraud",
-            "type": "string"
+            "type": "bigint"
           }
         ],
         "userModified": false
