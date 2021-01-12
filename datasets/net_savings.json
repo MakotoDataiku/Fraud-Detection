@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1610410478021
+    "lastModifiedOn": 1610410898661
   },
   "creationTag": {
     "versionNumber": 0,
@@ -153,6 +153,22 @@
       {
         "name": "fraud",
         "type": "bigint"
+      },
+      {
+        "name": "prediction_category",
+        "type": "string"
+      },
+      {
+        "name": "loss",
+        "type": "double"
+      },
+      {
+        "name": "savings",
+        "type": "double"
+      },
+      {
+        "name": "net_savings",
+        "type": "double"
       }
     ],
     "userModified": true
