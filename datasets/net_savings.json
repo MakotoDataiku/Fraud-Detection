@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1610537957902
+    "lastModifiedOn": 1610537993401
   },
   "creationTag": {
     "versionNumber": 0,
@@ -168,7 +168,7 @@
         "type": "double"
       },
       {
-        "name": "net_savings",
+        "name": "model_net_savings",
         "type": "double"
       }
     ],
