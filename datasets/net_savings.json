@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 16,
+    "versionNumber": 17,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1610538336060
+    "lastModifiedOn": 1610538380070
   },
   "creationTag": {
     "versionNumber": 0,
@@ -274,7 +274,7 @@
           "level": 8
         },
         "configuration": {
-          "code": "# Define here a function that returns the metric.\ndef process(dataset, partition_id):\n    # dataset is a dataiku.Dataset object\n    df \u003d dataset.get_dataframe()\n    sum_amount \u003d df[\"amount\"].sum()\n    manual_savings \u003d sum_amount*0.7\n    return {\u0027manual_savings\u0027 : manual_savings}",
+          "code": "# Define here a function that returns the metric.\ndef process(dataset, partition_id):\n    # dataset is a dataiku.Dataset object\n    df \u003d dataset.get_dataframe()\n    sum_amount \u003d df[\"amount\"].sum()\n    manual_savings \u003d sum_amount*0.7 - df.shape[0]*70\n    return {\u0027manual_savings\u0027 : manual_savings}",
           "envSelection": {
             "envMode": "INHERIT"
           }
