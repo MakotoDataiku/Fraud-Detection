@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1610572698546
+    "lastModifiedOn": 1610572911420
   },
   "creationTag": {
     "versionNumber": 0,
@@ -95,10 +95,6 @@
         "type": "string"
       },
       {
-        "name": "claim_date",
-        "type": "string"
-      },
-      {
         "name": "type",
         "type": "bigint"
       },
@@ -108,10 +104,6 @@
       },
       {
         "name": "id_company",
-        "type": "bigint"
-      },
-      {
-        "name": "past_claims",
         "type": "bigint"
       },
       {
@@ -133,6 +125,14 @@
       {
         "name": "fraud",
         "type": "bigint"
+      },
+      {
+        "name": "past_claims",
+        "type": "bigint"
+      },
+      {
+        "name": "claim_date",
+        "type": "string"
       }
     ],
     "userModified": true
