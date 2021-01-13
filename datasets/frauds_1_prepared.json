@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1610571901601
+    "lastModifiedOn": 1610572552548
   },
   "creationTag": {
     "versionNumber": 0,
@@ -91,7 +91,11 @@
         "type": "bigint"
       },
       {
-        "name": "date",
+        "name": "incident_date",
+        "type": "string"
+      },
+      {
+        "name": "claim_date",
         "type": "string"
       },
       {
@@ -107,16 +111,12 @@
         "type": "bigint"
       },
       {
-        "name": "remote_ip",
-        "type": "string"
-      },
-      {
-        "name": "remote_ip_country",
-        "type": "string"
-      },
-      {
-        "name": "remote_ip_tor",
+        "name": "past_claims",
         "type": "bigint"
+      },
+      {
+        "name": "country",
+        "type": "string"
       },
       {
         "name": "card_mask",
