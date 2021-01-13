@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1610537993401
+    "lastModifiedOn": 1610538039307
   },
   "creationTag": {
     "versionNumber": 0,
@@ -207,7 +207,7 @@
         "configuration": {
           "aggregates": [
             {
-              "column": "net_savings",
+              "column": "model_net_savings",
               "aggregated": "SUM"
             }
           ]
