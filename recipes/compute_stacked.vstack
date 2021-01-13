@@ -2,17 +2,17 @@
   "mode": "UNION",
   "selectedColumns": [
     "index",
-    "date",
+    "incident_date",
     "type",
     "amount",
     "id_company",
-    "remote_ip",
-    "remote_ip_country",
-    "remote_ip_tor",
+    "country",
     "card_mask",
     "card_country",
     "email",
-    "fraud"
+    "fraud",
+    "past_claims",
+    "claim_date"
   ],
   "originColumnName": "original_dataset",
   "engineParams": {
@@ -55,23 +55,17 @@
         "distinct": false,
         "enabled": false
       },
-      "originLabel": "frauds_1",
+      "originLabel": "eval_masked_1",
       "index": 0
     },
     {
-      "preFilter": {
-        "distinct": false,
-        "enabled": false
-      },
-      "originLabel": "no_frauds_prepared_1",
+      "preFilter": {},
+      "originLabel": "no_frauds_prep",
       "index": 1
     },
     {
-      "preFilter": {
-        "distinct": false,
-        "enabled": false
-      },
-      "originLabel": "eval_masked_1",
+      "preFilter": {},
+      "originLabel": "frauds_1_prepared",
       "index": 2
     }
   ],
@@ -84,7 +78,7 @@
             "type": "string"
           },
           {
-            "name": "date",
+            "name": "incident_date",
             "type": "string"
           },
           {
@@ -100,15 +94,7 @@
             "type": "string"
           },
           {
-            "name": "remote_ip",
-            "type": "string"
-          },
-          {
-            "name": "remote_ip_country",
-            "type": "string"
-          },
-          {
-            "name": "remote_ip_tor",
+            "name": "country",
             "type": "string"
           },
           {
@@ -125,6 +111,14 @@
           },
           {
             "name": "fraud",
+            "type": "string"
+          },
+          {
+            "name": "past_claims",
+            "type": "string"
+          },
+          {
+            "name": "claim_date",
             "type": "string"
           }
         ],
