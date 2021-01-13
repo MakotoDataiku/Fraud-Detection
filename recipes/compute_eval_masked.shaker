@@ -62,17 +62,21 @@
   "analysisColumnData": {},
   "columnWidthsByName": {
     "date": 148,
+    "country": 100,
     "amount": 100,
-    "remote_ip": 113,
+    "past_claims": 100,
     "remote_ip_country": 143,
-    "card_country": 105,
-    "fraud": 100,
+    "incident_date": 148,
     "id_company": 100,
     "index": 100,
-    "card_mask": 141,
     "type": 100,
     "remote_ip_tor": 113,
-    "email": 300
+    "remote_ip": 113,
+    "card_country": 105,
+    "fraud": 100,
+    "card_mask": 141,
+    "email": 300,
+    "claim_date": 148
   },
   "sorting": [
     {
