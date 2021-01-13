@@ -71,7 +71,7 @@
       "type": "CreateColumnWithGREL",
       "params": {
         "expression": "savings - loss",
-        "column": "net_savings"
+        "column": "model_net_savings"
       },
       "alwaysShowComment": false
     }
@@ -106,6 +106,7 @@
     "index": 100,
     "remote_ip_tor": 113,
     "benef_rank": 100,
+    "model_net_savings": 143,
     "customer_country_rank": 173,
     "customer_fraud_sum": 150,
     "month": 100,
