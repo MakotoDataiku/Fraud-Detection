@@ -26,8 +26,159 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "remote_ip_tor"
+        ],
+        "keep": false,
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "remote_ip_country",
+            "to": "country"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "remote_ip"
+        ],
+        "keep": false,
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "DateParser",
+      "params": {
+        "outCol": "date_parsed",
+        "formats": [
+          "yyyy-MM-dd HH:mm:ss"
+        ],
+        "columns": [
+          "date"
+        ],
+        "timezone_id": "UTC",
+        "appliesTo": "SINGLE_COLUMN",
+        "lang": "auto"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": true,
+      "type": "CreateColumnWithGREL",
+      "params": {
+        "expression": "date",
+        "column": "amount_paid"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "CreateColumnWithGREL",
+      "params": {
+        "expression": "inc(date_parsed, rand(0, 200), \"day\")",
+        "column": "claim_date"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "date",
+            "to": "incident_date"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "date_parsed"
+        ],
+        "keep": false,
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FindReplace",
+      "params": {
+        "output": "",
+        "mapping": [],
+        "normalization": "EXACT",
+        "columns": [
+          "claim_date"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "stopAfterFirstMatch": false,
+        "matching": "FULL_STRING"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": true,
+      "type": "ColumnSplitter",
+      "params": {
+        "inCol": "claim_date",
+        "keepEmptyChunks": false,
+        "limit": 0,
+        "separator": ".000Z",
+        "outColPrefix": "claim_date_",
+        "limitOutput": false,
+        "target": "COLUMNS"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -35,8 +186,30 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
-  "sorting": [],
+  "columnWidthsByName": {
+    "date": 148,
+    "country": 100,
+    "amount": 100,
+    "remote_ip_country": 143,
+    "incident_date": 148,
+    "id_company": 100,
+    "index": 100,
+    "type": 100,
+    "remote_ip_tor": 113,
+    "remote_ip": 113,
+    "card_country": 105,
+    "fraud": 100,
+    "card_mask": 141,
+    "email": 300,
+    "claim_date": 183,
+    "date_parsed": 148
+  },
+  "sorting": [
+    {
+      "column": "card_mask",
+      "ascending": true
+    }
+  ],
   "globalSearchQuery": "",
   "coloring": {
     "scheme": "MEANING_AND_STATUS",
