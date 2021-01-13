@@ -59,7 +59,7 @@
       "disabled": false,
       "type": "CreateColumnWithGREL",
       "params": {
-        "expression": "if(prediction_category\u003d\u003d\"TP\" || prediction_category\u003d\u003d\"FP\", 70, \n   if(prediction_category\u003d\u003d\"FN\", amount, 0))",
+        "expression": "if(prediction_category\u003d\u003d\"TP\" || prediction_category\u003d\u003d\"FP\", ${cost}, \n   if(prediction_category\u003d\u003d\"FN\", amount, 0))",
         "column": "loss"
       },
       "alwaysShowComment": false
