@@ -99,7 +99,7 @@
       "disabled": false,
       "type": "CreateColumnWithGREL",
       "params": {
-        "expression": "inc(date_parsed, rand(0, 50), \"day\")",
+        "expression": "inc(date_parsed, rand(3, 43), \"day\")",
         "column": "claim_date"
       },
       "alwaysShowComment": false
@@ -185,7 +185,7 @@
       "disabled": false,
       "type": "CreateColumnWithGREL",
       "params": {
-        "expression": "if(id_company \u003e 6000, rand(0, 10),\n   if(id_company \u003c 100, 0, rand(0, 3)))",
+        "expression": "if(id_company \u003e 6000, rand(0, 7),\n   if(id_company \u003c 100, 0, rand(0, 3)))",
         "column": "past_claims"
       },
       "alwaysShowComment": false
