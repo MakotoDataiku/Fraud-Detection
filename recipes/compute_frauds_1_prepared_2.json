@@ -11,6 +11,9 @@
           "map": {
             "frauds_1": {
               "repartition": 10
+            },
+            "eval_prepared": {
+              "repartition": 10
             }
           }
         },
@@ -69,11 +72,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1610572698549
+    "lastModifiedOn": 1610572911525
   },
   "creationTag": {
     "versionNumber": 0,
