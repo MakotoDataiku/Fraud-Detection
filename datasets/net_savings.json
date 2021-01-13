@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1610411102318
+    "lastModifiedOn": 1610537957902
   },
   "creationTag": {
     "versionNumber": 0,
@@ -248,6 +248,21 @@
         },
         "configuration": {
           "aggregates": []
+        }
+      },
+      {
+        "type": "python",
+        "enabled": true,
+        "computeOnBuildMode": "NO",
+        "meta": {
+          "name": "Python probe",
+          "level": 8
+        },
+        "configuration": {
+          "code": "# Define here a function that returns the metric.\ndef process(dataset, partition_id):\n    # dataset is a dataiku.Dataset object\n    sum_amount \u003d dataset[\"amount\"].sum()\n    manual_savings \u003d sum_amount*0.7\n    model_savings \u003d dataset[\"net_savings\"].sum()\n    potential_savings \u003d model_savings - manual_savings\n    return {\u0027metric_name1\u0027 : 42, \u0027metric_name2\u0027 : True}\n",
+          "envSelection": {
+            "envMode": "INHERIT"
+          }
         }
       }
     ],
