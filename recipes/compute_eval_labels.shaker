@@ -26,8 +26,27 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "index",
+          "fraud"
+        ],
+        "keep": true,
+        "appliesTo": "COLUMNS"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -35,7 +54,20 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "country": 100,
+    "amount": 100,
+    "past_claims": 100,
+    "incident_date": 148,
+    "card_country": 105,
+    "fraud": 100,
+    "id_company": 100,
+    "index": 100,
+    "card_mask": 141,
+    "type": 100,
+    "email": 300,
+    "claim_date": 148
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
