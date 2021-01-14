@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1610610952787
+    "lastModifiedOn": 1610610974709
   },
   "creationTag": {
     "versionNumber": 0,
@@ -91,48 +91,8 @@
         "type": "bigint"
       },
       {
-        "name": "incident_date",
-        "type": "string"
-      },
-      {
-        "name": "type",
-        "type": "bigint"
-      },
-      {
-        "name": "amount",
-        "type": "double"
-      },
-      {
-        "name": "id_company",
-        "type": "bigint"
-      },
-      {
-        "name": "country",
-        "type": "string"
-      },
-      {
-        "name": "card_mask",
-        "type": "string"
-      },
-      {
-        "name": "card_country",
-        "type": "string"
-      },
-      {
-        "name": "email",
-        "type": "string"
-      },
-      {
         "name": "fraud",
         "type": "bigint"
-      },
-      {
-        "name": "past_claims",
-        "type": "bigint"
-      },
-      {
-        "name": "claim_date",
-        "type": "string"
       }
     ],
     "userModified": true
