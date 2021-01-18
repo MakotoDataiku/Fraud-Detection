@@ -1,0 +1,150 @@
+{
+  "script": {
+    "steps": [],
+    "maxProcessedMemTableBytes": -1,
+    "fullSampleStatistics": {
+      "engineConfig": {
+        "padRunsWithMetrics": false,
+        "hive": {
+          "active": true,
+          "extraConf": []
+        },
+        "basic": {},
+        "dss": {
+          "active": true,
+          "selection": {
+            "useMemTable": false,
+            "filter": {
+              "distinct": false,
+              "enabled": false
+            },
+            "partitionSelectionMethod": "ALL",
+            "latestPartitionsN": 1,
+            "ordering": {
+              "enabled": false,
+              "rules": []
+            },
+            "samplingMethod": "FULL",
+            "maxRecords": -1,
+            "targetRatio": 0.02,
+            "withinFirstN": -1,
+            "maxReadUncompressedBytes": -1
+          }
+        },
+        "sql": {
+          "active": true
+        },
+        "impala": {
+          "active": true
+        },
+        "spark": {
+          "active": true,
+          "extraConf": []
+        },
+        "python": {}
+      },
+      "basic": true,
+      "countDistinct": true,
+      "advanced": true,
+      "percentile": false,
+      "validity": false,
+      "updateOnAnalyzeBoxOpen": false,
+      "computeCostFreeMetrics": false,
+      "numberTopValues": 10
+    },
+    "columnsSelection": {
+      "mode": "ALL"
+    },
+    "columnWidthsByName": {
+      "caseid": 100,
+      "loss": 100,
+      "theft": 100,
+      "damage": 100,
+      "delay": 100,
+      "notlistedcause": 120,
+      "other": 100,
+      "medical": 100,
+      "trip_cancellation": 143,
+      "incident_date": 148,
+      "weekday": 100,
+      "spring": 100,
+      "summer": 100,
+      "fall": 100,
+      "winter": 100,
+      "enquirydate": 148,
+      "incident_country": 141,
+      "incident_location": 143,
+      "casedate": 148,
+      "tripdeparturedate": 169,
+      "tripreturndate": 148,
+      "bookingdt": 148,
+      "date_of_birth": 148,
+      "pol_inception": 113,
+      "client_name": 197,
+      "type_claims": 127,
+      "insurer_ref": 127,
+      "agent_ref": 113,
+      "nett_scheme": 225,
+      "days_incidence": 120,
+      "age_claimant": 105,
+      "age_band": 113,
+      "trip_duration": 113,
+      "delay_notification": 150,
+      "totalreserve": 106,
+      "totalrecoveryreserve": 165,
+      "totaldecline": 105,
+      "paidamount": 141,
+      "totalrecovery": 113,
+      "amteur": 148,
+      "remainingreserve": 135,
+      "source": 100,
+      "result_investigation": 165,
+      "nb_claims": 100,
+      "recency": 100,
+      "amount": 100,
+      "fraud_history": 113,
+      "score": 100
+    },
+    "coloring": {
+      "scheme": "MEANING_AND_STATUS",
+      "individualColumns": [],
+      "valueColoringMode": "HASH"
+    },
+    "sorting": [],
+    "analysisColumnData": {},
+    "explorationSampling": {
+      "selection": {
+        "maxStoredBytes": 104857600,
+        "timeout": -1,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "HEAD_SEQUENTIAL",
+        "maxRecords": 10000,
+        "targetRatio": 0.02,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1
+      },
+      "autoRefreshSample": false,
+      "_refreshTrigger": 0
+    },
+    "vizSampling": {
+      "autoRefreshSample": false,
+      "_refreshTrigger": 0
+    },
+    "exploreUIParams": {
+      "autoRefresh": true
+    },
+    "globalSearchQuery": "",
+    "explorationFilters": [],
+    "previewMode": "ALL_ROWS"
+  },
+  "charts": []
+}
