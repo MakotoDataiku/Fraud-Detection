@@ -58,11 +58,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1610984794310
+    "lastModifiedOn": 1610984842245
   },
   "creationTag": {
     "versionNumber": 0,
@@ -234,7 +234,7 @@
       },
       {
         "name": "paidamount",
-        "type": "string"
+        "type": "double"
       },
       {
         "name": "totalrecovery",
