@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 22,
+    "versionNumber": 23,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1610981437072
+    "lastModifiedOn": 1610981631374
   },
   "creationTag": {
     "versionNumber": 0,
@@ -199,7 +199,7 @@
       {
         "type": "col_stats",
         "enabled": true,
-        "computeOnBuildMode": "NO",
+        "computeOnBuildMode": "PARTITION",
         "meta": {
           "name": "Columns statistics",
           "level": 2
