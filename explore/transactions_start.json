@@ -17,7 +17,11 @@
       "card_mask": 141,
       "card_country": 105,
       "email": 300,
-      "fraud": 100
+      "fraud": 100,
+      "incident_date": 148,
+      "country": 100,
+      "past_claims": 100,
+      "claim_date": 148
     },
     "coloring": {
       "scheme": "MEANING_AND_STATUS",
@@ -47,7 +51,7 @@
         "maxReadUncompressedBytes": -1
       },
       "autoRefreshSample": false,
-      "_refreshTrigger": 1
+      "_refreshTrigger": 2
     },
     "vizSampling": {
       "autoRefreshSample": false,
