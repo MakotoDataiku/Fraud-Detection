@@ -1,7 +1,160 @@
 {
   "name": "main flow",
   "color": "#465A64",
-  "items": [],
+  "items": [
+    {
+      "objectId": "frauds_1",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "no_frauds_prepared_1",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "eval_masked_1",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_benef_rank_fraud",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "benef_rank_fraud",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "transactions_joined_prep",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_company_fraud",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_customer_fraud_sum",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_customer_rank",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_features_joined",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_rank_fraud_features",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "company_fraud_sum",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_sum_fraud_features",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "customer_fraud_sum",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "features_joined",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "rank_fraud_features",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "sum_fraud_features",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "split_features_joined",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_frauds_1_prepared",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "frauds_1_prepared",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_stacked",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_frauds_1_prepared_1",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "no_frauds_prep",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "transactions_start",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_transactions_joined_prep",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "unseen_scored",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "score_unseen",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "vsrI8Q5J",
+      "objectType": "SAVED_MODEL"
+    },
+    {
+      "objectId": "unseen",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "seen",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "train_Prediction__RANDOM_FOREST_CLASSIFICATION__on_seen",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "customer_rank",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "customer_country_rank_frauds",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_customer_country_rank_frauds",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_unseen_scored_joined",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "unseen_scored_joined",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_net_savings",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "net_savings",
+      "objectType": "DATASET"
+    }
+  ],
   "shared": [],
   "tags": [],
   "customFields": {},
