@@ -7,7 +7,7 @@
       "kept_variance": 0.0
     },
     "outliers": {
-      "method": "CLUSTER",
+      "method": "NONE",
       "min_cum_ratio": 0.01,
       "min_n": 100
     },
@@ -1231,7 +1231,7 @@
         "enabled": false,
         "rules": []
       },
-      "samplingMethod": "HEAD_SEQUENTIAL",
+      "samplingMethod": "FULL",
       "maxRecords": 100000,
       "targetRatio": 0.02,
       "withinFirstN": -1,
