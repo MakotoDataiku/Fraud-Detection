@@ -1237,7 +1237,7 @@
       "withinFirstN": -1,
       "maxReadUncompressedBytes": -1
     },
-    "instanceIdRefresher": 0
+    "instanceIdRefresher": 1
   },
   "id": "t2WCJ6vB",
   "initiator": "admin",
