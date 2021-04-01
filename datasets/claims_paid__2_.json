@@ -14,7 +14,7 @@
     "crossProjectBuildBehavior": "DEFAULT"
   },
   "readWriteOptions": {
-    "preserveOrder": false,
+    "preserveOrder": true,
     "writeBuckets": 1,
     "forceSingleOutputFile": false,
     "defaultReadOrdering": {
@@ -58,11 +58,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1610984842245
+    "lastModifiedOn": 1617264492637
   },
   "creationTag": {
     "versionNumber": 0,
@@ -279,6 +279,7 @@
     ],
     "userModified": true
   },
+  "dkuProperties": [],
   "metrics": {
     "probes": [
       {
